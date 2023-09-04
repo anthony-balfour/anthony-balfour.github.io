@@ -1,0 +1,21 @@
+/*
+9-3-2023
+Stylesheet for the index.html page
+Contains styling properties for the entire webpage such
+as margin r
+emoval and box sizing */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: transparent;
+}
+
+body {
+  background: rgb(30,30,30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
