@@ -21,16 +21,22 @@ const Navbar = () => {
     <nav id="navbar">
       <p>Anthony Balfour</p>
       <section id="desktop-menu">
+        <section id="menu-links">
         <Link className="desktop-menu-link">Home</Link>
         <Link className="desktop-menu-link">Projects</Link>
         <Link className="desktop-menu-link">About</Link>
         <Link className="desktop-menu-link">Contact</Link>
+        </section>
+        <section id="social-links">
+          <a href="https://www.linkedin.com/in/anthonybalfourjr/">
+            <FontAwesomeIcon icon={faLinkedin} id="linked-in" className="social-link"/>
+          </a>
+          <a href="https://github.com/anthony-balfour?tab=repositories">
+            <FontAwesomeIcon icon={faGithub} id ="github" className="social-link"/>
+          </a>
+        </section>
+        <button>Let's Connect</button>
       </section>
-      <section id="social-links">
-        <FontAwesomeIcon icon={faLinkedin} />
-        <FontAwesomeIcon icon={faGithub} />
-      </section>
-      <button>Let's Connect</button>
     </nav>
   )
 }

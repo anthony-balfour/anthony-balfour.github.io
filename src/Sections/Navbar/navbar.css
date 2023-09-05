@@ -1,10 +1,89 @@
 /* This is the styling page for the navbar.js file
 It uses flexbox and a white coloring in conjuction with dark background */
 
+
+/* Navbar */
+
 #navbar {
   height: 5rem;
   width: 100vw;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#desktop-menu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10vw;
+}
+
+#menu-links {
+  display: flex;
+  gap: 35px;
+}
+
+.desktop-menu-link:hover {
+  cursor: pointer;
+}
+
+.social-link {
+  cursor: pointer;
+  color: white;
+}
+
+#social-links {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+#social-links a {
+  width: 43px;
+  height: 43px;
+  background: rgb(217, 217, 217, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+ #social-links a::before {
+  content: "";
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+  }
+
+#social-links a:hover::before {
+  transform: scale(1);
+}
+
+#social-links a .social-link {
+  width: 42%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+#social-links a:hover .social-link {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+#desktop-menu button {
+  padding: 1rem;
+  border: 1px solid white;
+  color: white;
 }
