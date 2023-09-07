@@ -99,11 +99,11 @@ It uses flexbox and a white coloring in conjuction with dark background */
 #desktop-menu button {
   font-weight: 700;
   font-size: 0.9em;
-  border: 1px solid #fff;
+  border: 1px solid orange;
   position: relative;
   margin-left: 2rem;
   padding: 18px 34px;
-  color: #fff;
+  color: orange;
   cursor: pointer;
   background-color: transparent;
   transition: 0.32s ease-in-out;
