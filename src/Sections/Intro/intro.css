@@ -9,30 +9,63 @@ The self-portrait is positioned in the second half of the page
 #intro {
   height: calc(100vh - 5rem);
   width: 100vw;
-  max-width: 75rem;
   margin: 0 auto;
-  outline: 1px solid teal;
   overflow: hidden;
+  position: relative;
 }
+
+#intro-content {
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+#introName {
+  color: rgb(240, 156, 1);
+}
+
+#intro-connect {
+  font-size: 1.4rem;
+}
+
+#intro-paragraph {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+/* Self-Portrait */
 
 #portrait {
   object-fit: cover;
-  height: 300px;
-  width: 200px;
-  border-radius: 10px;
+  height: 65vh;
+  position: absolute;
+  top: 4rem;
+  right: 10rem;
+  z-index: -1;
 }
-
 
 /* Let's Connect */
 
-#right-arrow {
-  transition: 0.25s ease-in-out;
-}
-
 #right-arrow:hover {
-  transform: translateX(10px);
+  transform: translateX(16px);
 }
 
 #intro-connect:hover {
   cursor: pointer;
+}
+
+#right-arrow {
+  transition: 0.25s ease-in-out;
+  margin-left: 12px;
+  color: rgb(240, 156, 1);
 }
