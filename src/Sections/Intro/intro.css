@@ -1,0 +1,38 @@
+/*
+This is the styling page for the landing section of the portfolio.
+On the left of the page is a welcome message styled with highlighted words
+The self-portrait is positioned in the second half of the page
+*/
+
+/* Height is equal to 100% view height - the height of the navbar (5rem) */
+
+#intro {
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  outline: 1px solid teal;
+  overflow: hidden;
+}
+
+#portrait {
+  object-fit: cover;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+/* Let's Connect */
+
+#right-arrow {
+  transition: 0.25s ease-in-out;
+}
+
+#right-arrow:hover {
+  transform: translateX(10px);
+}
+
+#intro-connect:hover {
+  cursor: pointer;
+}
