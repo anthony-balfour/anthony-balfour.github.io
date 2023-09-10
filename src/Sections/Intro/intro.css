@@ -6,9 +6,12 @@ The self-portrait is positioned in the second half of the page
 
 /* Height is equal to 100% view height - the height of the navbar (5rem) */
 
+
+/* Text Content */
+
 #intro {
   height: calc(100vh - 5rem);
-  width: 100vw;
+  width: 80vw;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -18,46 +21,128 @@ The self-portrait is positioned in the second half of the page
   height: calc(100vh - 5rem);
   width: 100vw;
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+
 #hello {
   font-size: 1.75rem;
   font-weight: 100;
+  margin-bottom: 15px;
 }
 
 #introName {
   color: rgb(240, 156, 1);
 }
 
-#intro-connect {
-  font-size: 1.4rem;
+#web-dev {
+  margin-bottom: 20px;
 }
 
-#intro-paragraph {
-  font-size: 1rem;
-  font-weight: 100;
+.intro-paragraph {
+  font-size: 1.1rem;
+  font-weight: 1;
+  line-height: 1.25;
+  color: rgb(240,240,240);
+  max-width: 465px;
+}
+
+@media screen and (max-width: 850px) {
+  .intro-text {
+    font-size: 3.32rem;
+  }
+
+  .intro-paragraph {
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro-text {
+    font-size: 3rem;
+    max-width: 70vw;
+  }
+
+  .intro-paragraph {
+    max-width: 65vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .intro-paragraph {
+    max-width: 60vw;
+    font-size: 0.9rem;
+  }
+}
+
+.intro-text {
+  margin-bottom: 15px;
+}
+
+#intro-connect {
+  font-size: 1.38rem;
+  transform: translateY(20px);
 }
 
 /* Self-Portrait */
 
 #portrait {
-  object-fit: cover;
-  height: 65vh;
+  object-fit: contain;
+  height: 150vh;
+  width: 400px;
   position: absolute;
   top: 4rem;
-  right: 10rem;
+  right: 10%;
   z-index: -1;
 }
+
+@media screen and (max-width: 1500px) {
+  #portrait {
+    right: 4%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #portrait {
+    right: 2%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #portrait {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #portrait {
+    right: -6vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #portrait {
+    right: -13vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #portrait {
+    right: -25vw;
+  }
+}
+
+
 
 /* Let's Connect */
 
 #right-arrow:hover {
-  transform: translateX(16px);
+  transform: translateX(14px);
 }
 
 #intro-connect:hover {

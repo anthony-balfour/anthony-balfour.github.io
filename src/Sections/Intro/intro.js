@@ -7,7 +7,7 @@
 
 import React from 'react'
 import "./intro.css";
-import portrait from "../../assets/self-photo.png";
+import portrait from "../../assets/self-photo-fullbody2.png";
 /* Font Awesome */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -18,12 +18,13 @@ const Intro = () => {
     <>
     <section id="intro">
       <section id="intro-content">
-        <p id="hello">Hello,</p>
+        <p id="hello">Hi!</p>
         <p className="intro-text">I'm <span id="introName">Anthony</span></p>
-        <p className="intro-text">Website Developer</p>
-        <p id="intro-paragraph">Highly motivated web developer with a passion for learning and creating beautiful, user-friendly
-          websites
-        </p>
+        <span className="intro-text" id="web-dev">Website Developer</span>
+        <p className="intro-paragraph">Highly motivated web developer with a passion for learning
+        and creating user-friendly, high-quality websites</p>
+        {/* <p className="intro-paragraph">(and using pictures with ghost hands)</p> */}
+
         <Link id="intro-connect">
           <span>Let's Connect</span>
           <FontAwesomeIcon icon = {faCircleArrowRight} id="right-arrow"></FontAwesomeIcon>

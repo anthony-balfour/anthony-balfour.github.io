@@ -6,7 +6,7 @@ It uses flexbox and a white coloring in conjuction with dark background */
 
 #navbar {
   height: 5rem;
-  width: 100vw;
+  width: 80vw;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -17,6 +17,7 @@ It uses flexbox and a white coloring in conjuction with dark background */
   top: 0;
   color: #fff;
   z-index: 3;
+  overflow: hidden;
 }
 
 #desktop-menu {
@@ -24,7 +25,6 @@ It uses flexbox and a white coloring in conjuction with dark background */
   gap: 10px;
   justify-content: center;
   align-items: center;
-  margin-right: 10vw;
 }
 
 
@@ -49,7 +49,7 @@ It uses flexbox and a white coloring in conjuction with dark background */
 }
 
 #social-links {
-  display: inline-block;
+  display: flex;
   margin-left: 3rem;
 }
 
@@ -99,11 +99,11 @@ It uses flexbox and a white coloring in conjuction with dark background */
 #desktop-menu button {
   font-weight: 700;
   font-size: 0.9em;
-  border: 1px solid orange;
+  border: 1px solid #fff;
   position: relative;
   margin-left: 2rem;
   padding: 18px 34px;
-  color: orange;
+  color: #fff;
   cursor: pointer;
   background-color: transparent;
   transition: 0.32s ease-in-out;

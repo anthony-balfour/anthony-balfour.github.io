@@ -14,7 +14,7 @@ emoval and box sizing */
 }
 
 body {
-  background: rgb(30,30,30);
+  background: rgb(32,32,32);
   color: white;
   overflow: hidden;
   overflow-y: scroll;
