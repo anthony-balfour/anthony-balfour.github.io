@@ -137,6 +137,29 @@ The self-portrait is positioned in the second half of the page
   }
 }
 
+@media screen and (max-height:560px)   {
+  #portrait {
+    height: 800px;
+    top: 0;
+  }
+
+  .intro-paragraph {
+    font-size: 0.7rem;
+    max-width: 30vw;
+  }
+  .intro-text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-height:500px) and (max-width: 900px )   {
+
+  .intro-paragraph {
+    font-size: 0.64rem;
+    max-width: 30vw;
+  }
+}
+
 
 
 /* Let's Connect */
