@@ -24,7 +24,7 @@ const Navbar = () => {
         <section id="menu-links">
         <Link className="desktop-menu-link">Home</Link>
         <Link className="desktop-menu-link">Projects</Link>
-        <Link className="desktop-menu-link">About</Link>
+        <Link className="desktop-menu-link" to="about" smooth = {true} duration = {500}>About</Link>
         <Link className="desktop-menu-link">Contact</Link>
         </section>
         <section id="social-links">

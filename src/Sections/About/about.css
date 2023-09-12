@@ -1,0 +1,124 @@
+/* React logo colors
+
+#61DAFB
+#007ACC */
+
+/* About Intro */
+
+#about {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size:1rem;
+  max-width: 65vw;
+}
+
+
+/* About Cards */
+
+.about-cards {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 90%;
+  text-align: left;
+}
+
+.about-card {
+ display: flex;
+ margin: 2.5rem;
+ padding: 1.5rem 2rem;
+ border-radius: 0.6rem;
+ background: rgb(50, 50, 50);
+}
+
+.about-card-text > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+  /* Image Styling */
+
+#about .react-icon {
+  color: #007ACC;
+  height: 3.5rem;
+  width: 3.5rem;
+  animation: rotate 40s infinite linear;
+}
+
+#about .react-icon:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.about-card-image {
+  height: 3.5rem;
+  width: 3.5rem;
+  object-fit: contain;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 900px ) {
+  .about-cards {
+    max-width: 100%;
+    width: 100vw;
+  }
+
+  #about {
+    max-width: 75vw;
+  }
+}
+@media screen and (max-width: 700px ) {
+
+  #about {
+    max-width: 90vw;
+  }
+  .about-cards {
+    max-width: 100%;
+    width: 100vw;
+  }
+
+  .about-card-image {
+    margin-right: 0;
+  }
+
+  .about-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+}

@@ -6,9 +6,10 @@ It uses flexbox and a white coloring in conjuction with dark background */
 
 #navbar {
   height: 5rem;
-  width: 80vw;
+  width: 100vw;
   margin: 0 auto;
   padding: 1rem 2rem;
+  background: rgb(30, 30, 30);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,8 +57,8 @@ It uses flexbox and a white coloring in conjuction with dark background */
 /* socials */
 
 #social-links a {
-  width: 43px;
-  height: 43px;
+  width: 3rem;
+  height: 3rem;
   background: rgb(217, 217, 217, 0.1);
   display: inline-flex;
   align-items: center;
@@ -71,8 +72,8 @@ It uses flexbox and a white coloring in conjuction with dark background */
 
  #social-links a::before {
   content: "";
-  width: 43px;
-  height: 43px;
+  width: 3rem;
+  height:3rem;
   position: absolute;
   background-color: #ffffff;
   border-radius: 50%;
