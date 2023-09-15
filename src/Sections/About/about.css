@@ -27,7 +27,7 @@
 .about-description {
   font-weight: 400;
   font-size:1rem;
-  max-width: 65vw;
+  max-width: 60rem;
 }
 
 
@@ -36,7 +36,7 @@
 .about-cards {
   margin: 1.5rem;
   width: 100vw;
-  max-width: 90%;
+  max-width: 85%;
   text-align: left;
 }
 

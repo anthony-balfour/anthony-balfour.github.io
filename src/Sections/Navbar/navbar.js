@@ -23,7 +23,7 @@ const Navbar = () => {
       <section id="desktop-menu">
         <section id="menu-links">
         <Link className="desktop-menu-link">Home</Link>
-        <Link className="desktop-menu-link">Projects</Link>
+        <Link className="desktop-menu-link" to="projects" smooth={true} duration ={600}>Projects</Link>
         <Link className="desktop-menu-link" to="about" smooth = {true} duration = {500}>About</Link>
         <Link className="desktop-menu-link">Contact</Link>
         </section>

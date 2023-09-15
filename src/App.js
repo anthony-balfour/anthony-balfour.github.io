@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Intro />
       <About />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }

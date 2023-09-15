@@ -27,8 +27,8 @@ const About = () => {
             </div>
             <div className="about-card-text">
               <h3>React UX/UI Design</h3>
-              <p>This website was created with React and I have created multiple projects with JS, HTML,
-                CSS, all implementing mobile-responsiveness and web design fundamentals
+              <p>This website was created with React and I have created multiple projects with JS;
+                all implementing mobile-responsiveness and web design fundamentals
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const About = () => {
             <div className="about-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                I created a flight reservation full stack app that uses Node, Express, SQLite, REST APIs
+                I created a flight reservation full stack app that uses Node, Express, SQLite, REST APIs, and JSON
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const About = () => {
             <div className="about-card-text">
               <h3>Java</h3>
               <p>I took multiple courses in Java at the University of Washington completing many mini projects
-                throughout. I would be ready to work and learn day 1!
+                throughout.
               </p>
             </div>
           </div>

@@ -11,7 +11,8 @@ The self-portrait is positioned in the second half of the page
 
 #intro {
   height: calc(100vh - 5rem);
-  width: 80vw;
+  width: 100vw;
+  max-width: 90rem;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -80,7 +81,7 @@ The self-portrait is positioned in the second half of the page
 /* Self-Portrait */
 
 #portrait {
-  object-fit: contain;
+  object-fit: cover;
   height: 100vh;
   position: absolute;
   top: 4rem;
