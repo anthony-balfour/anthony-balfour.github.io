@@ -16,14 +16,14 @@ A title appears above each project and on click more project information is give
 }
 
 .projects-title {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   font-size: 2.5rem;
   font-weight: 500;
 }
 
 .projects-container {
   display: flex;
-  gap: 6rem;
+  gap: 12rem;
   justify-content: center;
   align-items: center;
 }
@@ -49,6 +49,7 @@ A title appears above each project and on click more project information is give
 .tools {
   max-width: 20rem;
   font-size: 0.9rem;
+  color: #FFFFF0;
 }
 
 .img-links {
@@ -70,9 +71,11 @@ A title appears above each project and on click more project information is give
   justify-content: center;
   align-items: center;
   position: relative;
+  color: #fff;
+  transition: background-color 0.2s;
 }
 
-.img-links a::before {
+/* .img-links a::before {
   content: "";
   position: absolute;
   height: 2rem;
@@ -87,10 +90,12 @@ A title appears above each project and on click more project information is give
 .img-links a:hover::before {
   transform: scale(1);
   z-index: -5
-}
+} */
 
-.img-links p:hover {
+.img-links a:hover {
+  background-color: #fff;
   color: #121212;
+  font-weight: 500;
 }
 
 .projects-see-more {
@@ -107,13 +112,30 @@ A title appears above each project and on click more project information is give
 @media screen and (max-width: 700px) {
   .projects-container {
     flex-direction: column;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
+    gap: 4rem;
   }
 
   .project-img {
-    margin-bottom: 0;
-    margin: 0 2rem;
     height: 145px;
     width: 250px;
+  }
+
+  .tools {
+    max-width: 250px;
+  }
+  .img-links a {
+    margin-bottom: 0;
+    height: 1.8rem;
+    width: 5.7rem;
+  }
+
+  .img-links p {
+    font-size: 0.9rem;
+  }
+
+  .projects-title {
+    font-size: 1.9rem;
+    margin-bottom: 4rem;
   }
 }

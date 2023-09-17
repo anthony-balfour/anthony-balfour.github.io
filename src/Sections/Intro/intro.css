@@ -12,7 +12,7 @@ The self-portrait is positioned in the second half of the page
 #intro {
   height: calc(100vh - 5rem);
   width: 100vw;
-  max-width: 90rem;
+  max-width: 80rem;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -89,6 +89,11 @@ The self-portrait is positioned in the second half of the page
   z-index: -1;
 }
 
+@media screen and (max-width: 500px) {
+  .intro-text {
+    font-size: 2.7rem;
+  }
+}
 @media screen and (max-width: 1500px) {
   #portrait {
     right: 4%;

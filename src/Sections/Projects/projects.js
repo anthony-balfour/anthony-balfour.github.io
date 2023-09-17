@@ -15,8 +15,8 @@ const Projects = () => {
           <img className="project-img" src={expedia} alt="" />
           <p className="tools"> Tools: JS, Node, Express, SQLlite, API, JSON</p>
           <aisde className="img-links">
-            <a><p>Site</p></a>
-            <a><p>Source</p></a>
+            <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
           </aisde>
         </div>
         <div className="project-container">

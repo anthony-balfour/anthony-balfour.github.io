@@ -1,0 +1,7 @@
+#contact {
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 68rem;
+  margin: 0 auto;
+  text-align: center;
+}
