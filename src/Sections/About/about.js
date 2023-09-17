@@ -27,8 +27,8 @@ const About = () => {
             </div>
             <div className="about-card-text">
               <h3>React UX/UI Design</h3>
-              <p>This website was created with React. I have multiple projects in JS;
-                all implementing mobile-responsiveness and web design fundamentals
+              <p>This website was created with React. All of my javascript projects
+                implement mobile-responsiveness and web design fundamentals
               </p>
             </div>
           </div>
@@ -47,8 +47,7 @@ const About = () => {
             <img className="about-card-image" src={java} alt="java logo"></img>
             <div className="about-card-text">
               <h3>Java</h3>
-              <p>I took the programming series in Java and Data Structures and Algorithhms in Java at the University of Washington completing many mini projects
-                throughout.
+              <p>Took the programming series in Java and Data Structures and Algorithhms in Java at the University of Washington completing many projects
               </p>
             </div>
           </div>

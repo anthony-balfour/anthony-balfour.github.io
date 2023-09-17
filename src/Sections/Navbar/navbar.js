@@ -23,9 +23,9 @@ const Navbar = () => {
       <section id="desktop-menu">
         <section id="menu-links">
         <Link className="desktop-menu-link">Home</Link>
+        <Link className="desktop-menu-link" to="about" smooth = {true} duration = {500}>Skills</Link>
         <Link className="desktop-menu-link" to="projects" smooth={true} duration ={600}>Projects</Link>
-        <Link className="desktop-menu-link" to="about" smooth = {true} duration = {500}>About</Link>
-        <Link className="desktop-menu-link">Contact</Link>
+        <Link className="desktop-menu-link">About</Link>
         </section>
         <section id="social-links">
           <a href="https://www.linkedin.com/in/anthonybalfourjr/">
@@ -35,7 +35,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faGithub} id ="github" className="social-link"/>
           </a>
         </section>
-        <button>Let's Connect</button>
+        <Link to="contact" smooth={true} duration={600}><button>Let's Connect</button></Link>
       </section>
     </nav>
   )

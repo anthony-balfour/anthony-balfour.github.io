@@ -12,7 +12,9 @@ const Projects = () => {
       <div className="projects-container">
         <div className="project-container">
           <h4 className="project-img-title">Full Stack Flight Reservation App</h4>
-          <img className="project-img" src={expedia} alt="" />
+          <a href="https://outbound-flight-reservation.glitch.me/">
+            <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
+          </a>
           <p className="tools"> Tools: JS, Node, Express, SQLlite, API, JSON</p>
           <aisde className="img-links">
             <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
@@ -21,7 +23,7 @@ const Projects = () => {
         </div>
         <div className="project-container">
           <h4 className="project-img-title">Dune Summary API</h4>
-          <img className="project-img" src={dune} alt="" />
+          <img className="project-img" src={dune} alt="Dune Project Screenshot" />
           <p className="tools"> Tools: JS, Node, Node File System, API, JSON</p>
           <aisde className="img-links">
             <a><p>Site</p></a>
@@ -33,7 +35,7 @@ const Projects = () => {
       <div className="projects-container" >
         <div className="project-container">
           <h4 className="project-img-title">Greek Art 3rd Party API </h4>
-          <img className="project-img" src={greekArt} alt="" />
+          <img className="project-img" src={greekArt} alt="Greek Project Screenshot" />
           <p className="tools"> Tools: JS, Fetch, 3rd Party API</p>
           <aisde className="img-links">
             <a><p>Site</p></a>
@@ -42,7 +44,7 @@ const Projects = () => {
         </div>
         <div className="project-container">
           <h4 className="project-img-title">Seahawks Landing Page</h4>
-          <img className="project-img" src={seahawks} alt="" />
+          <img className="project-img" src={seahawks} alt="Seahawks Project Screenshot" />
           <p className="tools"> Tools: JS, CSS, HTML</p>
           <aisde className="img-links">
             <a><p>Site</p></a>

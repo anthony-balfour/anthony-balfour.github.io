@@ -25,7 +25,7 @@ const Intro = () => {
         and creating user-friendly, high-quality websites</p>
         {/* <p className="intro-paragraph">(and using pictures with ghost hands)</p> */}
 
-        <Link id="intro-connect">
+        <Link id="intro-connect" to="contact" smooth={true} duration={600}>
           <span>Let's Connect</span>
           <FontAwesomeIcon icon = {faCircleArrowRight} id="right-arrow"></FontAwesomeIcon>
         </Link>
