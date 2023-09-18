@@ -5,7 +5,7 @@ import './contact.css';
   return (
     <section id="contact">
       <h2 className="contact-title">Contact Me</h2>
-      <p className="contact-description">Send me a message, let's get to work!</p>
+      <p className="contact-description">Send me a message, let's do something awesome together!</p>
       <form className="contact-form">
         <input type="text" className="contact-name" placeholder="Your Name" />
         <input type="email" className="contact-email" placeholder='Your Email' />

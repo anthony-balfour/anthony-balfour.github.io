@@ -38,7 +38,7 @@ const About = () => {
             <div className="about-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                Created a flight reservation full stack app that uses Node, Express, SQLite, REST APIs, and JSON
+                I created a full stack flight reservation app that uses JS,Node, Express, SQLite, REST APIs, and JSON
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const About = () => {
             <img className="about-card-image" src={java} alt="java logo"></img>
             <div className="about-card-text">
               <h3>Java</h3>
-              <p>Took the programming series in Java and Data Structures and Algorithhms in Java at the University of Washington completing many projects
+              <p>I took the programming series and Data Structures and Algorithhms in Java at the University of Washington completing many projects
               </p>
             </div>
           </div>

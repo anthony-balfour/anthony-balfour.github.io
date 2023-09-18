@@ -133,3 +133,10 @@ It uses flexbox and a white coloring in conjuction with dark background */
 	position: absolute;
   height: 100%;
 }
+
+.active-link {
+  opacity: 1;
+}
+
+.hamburger {
+}

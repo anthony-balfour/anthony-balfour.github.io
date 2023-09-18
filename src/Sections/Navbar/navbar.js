@@ -13,6 +13,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+// Using React Icons package
+import  { BiMenu } from "react-icons/bi";
+
 // Link is used for SPA smooth scrolling and has different utility than Link with React Router
 import { Link } from 'react-scroll';
 
@@ -22,10 +25,10 @@ const Navbar = () => {
       <p>Anthony Balfour</p>
       <section id="desktop-menu">
         <section id="menu-links">
-        <Link className="desktop-menu-link">Home</Link>
-        <Link className="desktop-menu-link" to="about" smooth = {true} duration = {500}>Skills</Link>
-        <Link className="desktop-menu-link" to="projects" smooth={true} duration ={600}>Projects</Link>
-        <Link className="desktop-menu-link">About</Link>
+          <Link activeClass="active-link" spy={true} className="desktop-menu-link" to="intro" smooth="true" duration={500}>Home</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100}>Projects</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" spy={true}>About</Link>
         </section>
         <section id="social-links">
           <a href="https://www.linkedin.com/in/anthonybalfourjr/">
@@ -37,6 +40,13 @@ const Navbar = () => {
         </section>
         <Link to="contact" smooth={true} duration={600}><button>Let's Connect</button></Link>
       </section>
+      <section className="mobile-menu">
+          <BiMenu className="hamburger"/>
+          <Link activeClass="active-link" spy={true} className="desktop-menu-link" to="intro" smooth="true" duration={500}>Home</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100}>Projects</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" spy={true}>About</Link>
+        </section>
     </nav>
   )
 }
