@@ -14,9 +14,9 @@ const About = () => {
       <section id="about">
         <h2 className="about-title">Skills</h2>
         <p className="about-description">
-          I am a passionate web designer that loves learning about
-          new technologies with experience in UI/UX design, full stack applications, and REST API's.
-          I am proficient in React, Javascript, Java, CSS, HTML, Node, and SQL
+          I have experience in UI/UX design, full stack applications, web development, REST API's,
+          and database management.
+          I am proficient in React, Javascript, Java, CSS, HTML, Node, Express and SQLite
         </p>
 
         <section className="about-cards">

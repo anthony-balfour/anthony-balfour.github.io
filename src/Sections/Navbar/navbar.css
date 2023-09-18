@@ -139,4 +139,42 @@ It uses flexbox and a white coloring in conjuction with dark background */
 }
 
 .hamburger {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
+
+.mobile-menu-open {
+  position: fixed;
+  inset: 0 0 0 70%;
+  background-color: rgba(50, 50, 50, 0.7);
+  backdrop-filter: blur(5px);
+  color: white;
+  transition: all 750ms;
+  z-index: 15;
+  transform: translateX(0%);
+}
+
+.mobile-menu-close {
+  transform: translateX(100%);
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 2rem;
+  opacity: 0.75;
+  padding: 2rem 2rem;
+  padding-top: 6rem;
+  position: relative;
+}
+
+.mobile-close-x {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.5rem;
+}
+
