@@ -28,7 +28,6 @@ It uses flexbox and a white coloring in conjuction with dark background */
   align-items: center;
 }
 
-
 #menu-links {
   display: flex;
   gap: 3rem;
@@ -138,43 +137,86 @@ It uses flexbox and a white coloring in conjuction with dark background */
   opacity: 1;
 }
 
+/* Mobile */
+
 .hamburger {
+  visibility: hidden;
   font-size: 2.5rem;
   position: absolute;
   top: 20px;
   right: 20px;
+  z-index: 15;
 }
 
-.mobile-menu-open {
+.hamburger-hide {
+  display: none;
+}
+
+#mobile-menu {
   position: fixed;
-  inset: 0 0 0 70%;
+  inset: 0 0 0 60%;
   background-color: rgba(50, 50, 50, 0.7);
   backdrop-filter: blur(5px);
   color: white;
-  transition: all 750ms;
-  z-index: 15;
-  transform: translateX(0%);
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .mobile-menu-close {
   transform: translateX(100%);
-}
-
-.mobile-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+  transition: transform 750ms;
   font-size: 2rem;
-  opacity: 0.75;
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
   padding-top: 6rem;
-  position: relative;
 }
 
-.mobile-close-x {
+.mobile-menu-open {
+  transition: transform 750ms;
+  transform: translateX(0%);
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  padding-top: 6rem;
+}
+
+ .mobile-menu-link {
+  cursor: pointer;
+  opacity: 0.75;
+  transition: all 0.09s ease-in;
+ }
+
+ .mobile-menu-link:hover {
+  opacity: 1;
+ }
+
+#mobile-close-x {
   position: absolute;
   top: 20px;
   right: 20px;
   font-size: 2.5rem;
+  cursor: pointer;
+  opacity: 0.75;
+  z-index: 10;
+}
+
+.mobile-close-x:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 950px) {
+  #desktop-menu {
+    display: none;
+  }
+
+  .hamburger {
+    visibility: initial;
+  }
+
+  .hamburger-hide {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: flex;
+  }
 }
 

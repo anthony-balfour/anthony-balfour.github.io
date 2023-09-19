@@ -49,17 +49,15 @@ const Navbar = () => {
         </section>
         <Link to="contact" smooth={true} duration={600}><button>Let's Connect</button></Link>
       </section>
-      {/* <BiMenu className="hamburger" onClick={changeMenu}/>
-      <section className={showMenu ? "mobile-menu-close" : "mobile-menu-open"}>
-        <div className="mobile-menu">
-          <AiOutlineClose className="mobile-close-x" onClick={changeMenu} />
-          <Link  className="mobile-menu-link" spy={true} to="intro" smooth="true" duration={500} >Home</Link>
-          <Link  className="mobile-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
-          <Link  className="mobile-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100}>Projects</Link>
-          <Link  className="mobile-menu-link" spy={true}>About</Link>
-          <Link  className="mobile-menu-link" spy={true} to="contact" smooth={true} duration ={600}>Contact</Link>
-        </div>
-      </section> */}
+      <BiMenu className={showMenu ? "hamburger-hide" : "hamburger"} onClick={changeMenu}/>
+      <section id="mobile-menu" className={showMenu ? "mobile-menu-open" : "mobile-menu-close"}>
+            <AiOutlineClose id="mobile-close-x" onClick={changeMenu} />
+            <Link  className="mobile-menu-link" spy={true} to="intro" smooth="true" duration={500} >Home</Link>
+            <Link  className="mobile-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
+            <Link  className="mobile-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100}>Projects</Link>
+            <Link  className="mobile-menu-link" spy={true}>About</Link>
+            <Link  className="mobile-menu-link" spy={true} to="contact" smooth={true} duration ={600}>Contact</Link>
+      </section>
     </nav>
   )
 }
