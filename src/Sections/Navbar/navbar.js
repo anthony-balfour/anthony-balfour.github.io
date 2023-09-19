@@ -43,7 +43,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/anthonybalfourjr/">
             <FontAwesomeIcon icon={faLinkedin} id="linked-in" className="social-link"/>
           </a>
-          <a href="https://github.com/anthony-balfour?tab=repositories">
+          <a href="https://github.com/anthony-balfour">
             <FontAwesomeIcon icon={faGithub} id ="github" className="social-link"/>
           </a>
         </section>
@@ -52,11 +52,11 @@ const Navbar = () => {
       <BiMenu className={showMenu ? "hamburger-hide" : "hamburger"} onClick={changeMenu}/>
       <section id="mobile-menu" className={showMenu ? "mobile-menu-open" : "mobile-menu-close"}>
             <AiOutlineClose id="mobile-close-x" onClick={changeMenu} />
-            <Link  className="mobile-menu-link" spy={true} to="intro" smooth="true" duration={500} >Home</Link>
-            <Link  className="mobile-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
-            <Link  className="mobile-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100}>Projects</Link>
-            <Link  className="mobile-menu-link" spy={true}>About</Link>
-            <Link  className="mobile-menu-link" spy={true} to="contact" smooth={true} duration ={600}>Contact</Link>
+            <Link  className="mobile-menu-link" spy={true} to="intro" smooth="true" duration={500} onClick={changeMenu} >Home</Link>
+            <Link  className="mobile-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50} onClick={changeMenu}>Skills</Link>
+            <Link  className="mobile-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100} onClick={changeMenu}>Projects</Link>
+            <Link  className="mobile-menu-link" spy={true} onClick={changeMenu}>About</Link>
+            <Link  className="mobile-menu-link" spy={true} to="contact" smooth={true} duration ={600} onClick={changeMenu}>Contact</Link>
       </section>
     </nav>
   )
