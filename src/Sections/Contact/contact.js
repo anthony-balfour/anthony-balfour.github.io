@@ -1,5 +1,7 @@
 import React from 'react';
 import './contact.css';
+import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.png";
 
  const Contact = () => {
   return (
@@ -13,6 +15,8 @@ import './contact.css';
         <textarea name="message" className="contact-message" rows="5" placeholder='Your Message'></textarea>
         <button className="contact-submit" type="submit" value='Send'>Submit</button>
         <div className="contact-links">
+          <a href="https://github.com/anthony-balfour"><img className="contact-icon" src={github} alt="github icon" /></a>
+          <a href="https://www.linkedin.com/in/anthonybalfourjr/"><img className="contact-icon" src={linkedin} alt ="linekdin icon" /></a>
         </div>
 
       </form>

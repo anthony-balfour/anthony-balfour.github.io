@@ -58,3 +58,27 @@
   align-items: center;
   height: 100vh;
 }
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+}
+
+.contact-icon {
+  height: 3.3rem;
+  width: 3.3rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .contact-icon {
+    display: block;
+  }
+
+  .contact-submit {
+    margin-bottom: 3rem;
+  }
+}
