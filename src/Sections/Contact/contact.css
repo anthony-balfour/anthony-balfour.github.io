@@ -1,12 +1,12 @@
 /* Styling for the Contact Section */
 
 #contact {
-  height: calc(87vh - 5rem);
+  height: calc(100vh - 5rem);
   width: 100vw;
   max-width: 68rem;
   margin: 0 auto;
   text-align: center;
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
 .contact-title {
@@ -50,4 +50,11 @@
   margin: 2rem;
   cursor: pointer;
   font-weight: 600;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }

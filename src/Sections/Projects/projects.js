@@ -26,8 +26,8 @@ const Projects = () => {
           <img className="project-img" src={dune} alt="Dune Project Screenshot" />
           <p className="tools"> Tools: JS, Node, Node File System, API, JSON</p>
           <aisde className="img-links">
-            <a><p>Site</p></a>
-            <a><p>Source</p></a>
+            <a href="https://dune-api-fs.glitch.me/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/DuneAPI"><p>Source</p></a>
           </aisde>
         </div>
       </div>
@@ -38,8 +38,8 @@ const Projects = () => {
           <img className="project-img" src={greekArt} alt="Greek Project Screenshot" />
           <p className="tools"> Tools: JS, Fetch, 3rd Party API</p>
           <aisde className="img-links">
-            <a><p>Site</p></a>
-            <a><p>Source</p></a>
+            {/* <a><p>Site</p></a> */}
+            <a href="https://github.com/anthony-balfour/Greek-Roman-Art-and-Pokemon"><p>Source</p></a>
           </aisde>
         </div>
         <div className="project-container">
@@ -47,8 +47,8 @@ const Projects = () => {
           <img className="project-img" src={seahawks} alt="Seahawks Project Screenshot" />
           <p className="tools"> Tools: JS, CSS, HTML</p>
           <aisde className="img-links">
-            <a><p>Site</p></a>
-            <a><p>Source</p></a>
+            {/* <a><p>Site</p></a> */}
+            <a href="https://github.com/anthony-balfour/seahawks-landing-page"><p>Source</p></a>
           </aisde>
         </div>
       </div>
