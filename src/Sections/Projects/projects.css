@@ -23,7 +23,7 @@ A title appears above each project and on click more project information is give
 
 .projects-container {
   display: flex;
-  gap: 12rem;
+  gap: 9vw;
   justify-content: center;
   align-items: center;
 }
@@ -37,9 +37,11 @@ A title appears above each project and on click more project information is give
 
 .project-img {
   height: 11.5rem;
-  width: 22rem;
+  width: 20rem;
   cursor: pointer;
   margin-bottom: 0.6rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .project-img-title {
@@ -109,6 +111,24 @@ A title appears above each project and on click more project information is give
 }
 
 /*Projects container has same margin-bottom as the gap between its individual items */
+
+@media screen and (max-width: 985px) {
+  .projects-container {
+    gap: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .projects-container {
+    flex-direction : column;
+    gap: 0;
+  }
+
+  .img-links a {
+    margin-bottom: 3.7rem;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .projects-container {
     flex-direction: column;
@@ -117,8 +137,7 @@ A title appears above each project and on click more project information is give
   }
 
   .project-img {
-    height: 145px;
-    width: 250px;
+    width: 18rem;
   }
 
   .tools {

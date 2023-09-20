@@ -35,9 +35,9 @@ const Navbar = () => {
       <section id="desktop-menu">
         <section id="menu-links">
           <Link activeClass="active-link" spy={true} className="desktop-menu-link" to="intro" smooth="true" duration={500}>Home</Link>
-          <Link activeClass="active-link" className="desktop-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" to="skills" spy={true} smooth = {true} duration = {500} offset={-50}>Skills</Link>
           <Link activeClass="active-link" className="desktop-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100}>Projects</Link>
-          <Link activeClass="active-link" className="desktop-menu-link" spy={true}>About</Link>
+          <Link activeClass="active-link" className="desktop-menu-link" spy={true} to="about" smooth={true} duration = {600}>About</Link>
         </section>
         <section id="social-links">
           <a href="https://www.linkedin.com/in/anthonybalfourjr/">
@@ -53,9 +53,9 @@ const Navbar = () => {
       <section id="mobile-menu" className={showMenu ? "mobile-menu-open" : "mobile-menu-close"}>
             <AiOutlineClose id="mobile-close-x" onClick={changeMenu} />
             <Link  className="mobile-menu-link" spy={true} to="intro" smooth="true" duration={500} onClick={changeMenu} >Home</Link>
-            <Link  className="mobile-menu-link" to="about" spy={true} smooth = {true} duration = {500} offset={-50} onClick={changeMenu}>Skills</Link>
+            <Link  className="mobile-menu-link" to="skills" spy={true} smooth = {true} duration = {500} offset={-50} onClick={changeMenu}>Skills</Link>
             <Link  className="mobile-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100} onClick={changeMenu}>Projects</Link>
-            <Link  className="mobile-menu-link" spy={true} onClick={changeMenu}>About</Link>
+            <Link activeClass="active-link" className="desktop-menu-link" spy={true} to="about" smooth={true} duration = {600}>About</Link>
             <Link  className="mobile-menu-link" spy={true} to="contact" smooth={true} duration ={600} onClick={changeMenu}>Contact</Link>
       </section>
     </nav>

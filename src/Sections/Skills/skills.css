@@ -1,0 +1,124 @@
+/* React logo colors
+
+#61DAFB
+#007ACC */
+
+/* skills Intro */
+
+#skills {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-description {
+  font-weight: 400;
+  font-size:1rem;
+  max-width: 60rem;
+}
+
+
+/* skills Cards */
+
+.skills-cards {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 85%;
+  text-align: left;
+}
+
+.skills-card {
+ display: flex;
+ margin: 2.5rem;
+ padding: 1.5rem 2rem;
+ border-radius: 0.6rem;
+ background: rgb(50, 50, 50);
+}
+
+.skills-card-text > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+  /* Image Styling */
+
+#skills .react-icon {
+  color: #007ACC;
+  height: 3.5rem;
+  width: 3.5rem;
+  animation: rotate 40s infinite linear;
+}
+
+#skills .react-icon:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.skills-card-image {
+  height: 3.5rem;
+  width: 3.5rem;
+  object-fit: contain;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 900px ) {
+  .skills-cards {
+    max-width: 100%;
+    width: 100vw;
+  }
+
+  #skills {
+    max-width: 75vw;
+  }
+}
+@media screen and (max-width: 700px ) {
+
+  #skills {
+    max-width: 90vw;
+  }
+  .skills-cards {
+    max-width: 100%;
+    width: 100vw;
+  }
+
+  .skills-card-image {
+    margin-right: 0;
+  }
+
+  .skills-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+}

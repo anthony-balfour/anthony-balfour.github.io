@@ -190,8 +190,8 @@ It uses flexbox and a white coloring in conjuction with dark background */
 
 #mobile-close-x {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 1.2rem;
+  right: 1.5rem;
   font-size: 2.5rem;
   cursor: pointer;
   opacity: 0.75;
@@ -235,5 +235,13 @@ It uses flexbox and a white coloring in conjuction with dark background */
 
   #mobile-close-x {
     font-size: 2rem;
+    right: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #mobile-close-x {
+    right: 2.4rem;
+    top: 1.6rem;
   }
 }
