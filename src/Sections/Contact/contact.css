@@ -73,12 +73,23 @@
   display: none;
 }
 
+.email-response {
+  color: rgb(240, 156, 1);
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 950px) {
   .contact-icon {
     display: block;
   }
 
   .contact-submit {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 }

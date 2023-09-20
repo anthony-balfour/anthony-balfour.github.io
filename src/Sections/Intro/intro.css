@@ -170,8 +170,14 @@ The self-portrait is positioned in the second half of the page
 
 /* Samsung landing page styling */
 
-@media screen and (max-height: 750px) and (max-width: 365px){
+@media screen and (max-height: 750px) and (max-width: 375px){
   #portrait {
     top: -0.2rem;
+  }
+}
+
+@media screen and (max-height: 850px) and (max-width: 390px) {
+  #portrait {
+    top: 1.5rem;
   }
 }
