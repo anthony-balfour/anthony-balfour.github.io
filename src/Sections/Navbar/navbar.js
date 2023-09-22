@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link  className="mobile-menu-link" spy={true} to="intro" smooth="true" duration={500} onClick={changeMenu} >Home</Link>
             <Link  className="mobile-menu-link" to="skills" spy={true} smooth = {true} duration = {500} offset={-50} onClick={changeMenu}>Skills</Link>
             <Link  className="mobile-menu-link" to="projects" spy={true} smooth={true} duration ={600} offset={-100} onClick={changeMenu}>Projects</Link>
-            <Link activeClass="active-link" className="desktop-menu-link" spy={true} to="about" smooth={true} duration = {600}>About</Link>
+            <Link activeClass="active-link" className="desktop-menu-link" spy={true} to="about" smooth={true} duration = {600} onClick={changeMenu}>About</Link>
             <Link  className="mobile-menu-link" spy={true} to="contact" smooth={true} duration ={600} onClick={changeMenu}>Contact</Link>
       </section>
     </nav>

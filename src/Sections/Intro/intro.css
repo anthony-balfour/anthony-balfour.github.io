@@ -181,3 +181,9 @@ The self-portrait is positioned in the second half of the page
     top: 1.5rem;
   }
 }
+
+@media screen and (max-width: 400px) and (max-height: 760px) {
+  #portrait {
+    top: 0.7rem;
+  }
+}
