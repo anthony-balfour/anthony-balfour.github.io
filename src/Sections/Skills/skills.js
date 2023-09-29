@@ -14,9 +14,9 @@ const Skills = () => {
       <section id="skills">
         <h2 className="skills-title">Skills</h2>
         <p className="skills-description">
-          I have experience in UI/UX design, full stack applications, web development, REST API's,
+          I have experience in full stack applications,  UI/UX design, web development, REST API's,
           and database management.
-          I am proficient in React, Javascript, Java, CSS, HTML, Node, Express and SQLite
+          Experience: React, Spring Boot, Java, MySQL, Bootstrap, Node, Express, Axios, CRUD
         </p>
 
         <section className="skills-cards">
@@ -27,8 +27,8 @@ const Skills = () => {
             </div>
             <div className="skills-card-text">
               <h3>React UX/UI Design</h3>
-              <p>This website was created with React. All of my javascript projects
-                implement mobile-responsiveness and web design fundamentals
+              <p> I have multiple fullstack projects in React and created
+                this website with React
               </p>
             </div>
           </div>
@@ -38,7 +38,8 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                I created a full stack flight reservation app that uses JS, Node, Express, SQLite, REST APIs, and JSON
+                I created a CRUD application using Spring Boot, React, MySQL, Postman, Axios and a
+                Flight Reservation App that uses JS, Node, Express, SQLite, REST APIs
               </p>
             </div>
           </div>
@@ -47,7 +48,9 @@ const Skills = () => {
             <img className="skills-card-image" src={java} alt="java logo"></img>
             <div className="skills-card-text">
               <h3>Java</h3>
-              <p>I took the programming series and Data Structures and Algorithms in Java at the University of Washington completing many projects
+              <p>I have multiple projects using Spring Boot/Spring and
+                took most of my courses at the University of Washington in Java
+                (DSA, Programming fundamentals)
               </p>
             </div>
           </div>

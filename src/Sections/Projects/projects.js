@@ -1,6 +1,7 @@
 import React from 'react'
 import "./projects.css"
 import dune from "../../assets/dune.png";
+import crud from "../../assets/crud.png";
 import expedia from "../../assets/expedia.png";
 import greekArt from "../../assets/greek.png";
 import seahawks from "../../assets/seahawks.png";
@@ -22,6 +23,18 @@ const Projects = () => {
           </aisde>
         </div>
         <div className="project-container">
+          <h4 className="project-img-title">Full Stack CRUD app</h4>
+          <img className="project-img" src={crud} alt="CRUD Application Screenshot" />
+          <p className="tools"> Tools: React, Bootstrap, Spring Boot, MySQL, Java, Axios, Postman</p>
+          <aisde className="img-links">
+            {/* <a href="https://dune-api-fs.glitch.me/"><p>Site</p></a> */}
+            <a href="https://github.com/anthony-balfour/CRUD-FullStack"><p>Source</p></a>
+          </aisde>
+        </div>
+      </div>
+
+      <div className="projects-container" >
+        <div className="project-container">
           <h4 className="project-img-title">Dune Summary API</h4>
           <img className="project-img" src={dune} alt="Dune Project Screenshot" />
           <p className="tools"> Tools: JS, Node, Node File System, API, JSON</p>
@@ -30,18 +43,9 @@ const Projects = () => {
             <a href="https://github.com/anthony-balfour/DuneAPI"><p>Source</p></a>
           </aisde>
         </div>
-      </div>
 
-      <div className="projects-container" >
-        <div className="project-container">
-          <h4 className="project-img-title">Greek Art 3rd Party API </h4>
-          <img className="project-img" src={greekArt} alt="Greek Project Screenshot" />
-          <p className="tools"> Tools: JS, Fetch, 3rd Party API</p>
-          <aisde className="img-links">
-            {/* <a><p>Site</p></a> */}
-            <a href="https://github.com/anthony-balfour/Greek-Roman-Art-and-Pokemon"><p>Source</p></a>
-          </aisde>
-        </div>
+
+
         <div className="project-container">
           <h4 className="project-img-title">Seahawks Landing Page</h4>
           <img className="project-img" src={seahawks} alt="Seahawks Project Screenshot" />
