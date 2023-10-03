@@ -14,9 +14,9 @@ const Skills = () => {
       <section id="skills">
         <h2 className="skills-title">Skills</h2>
         <p className="skills-description">
-          I have experience in full stack applications,  UI/UX design, web development, REST API's,
+          I have experience in full stack applications, AWS deployment, UI/UX design, web development, REST API's,
           and database management.
-          Experience: React, Spring Boot, Java, MySQL, Bootstrap, Node, Express, Axios, CRUD
+          Experience: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD
         </p>
 
         <section className="skills-cards">
