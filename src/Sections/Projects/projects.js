@@ -11,11 +11,12 @@ const Projects = () => {
       <h2 className="projects-title">Projects</h2>
       <div className="projects-container">
         <div className="project-container">
-          <h4 className="project-img-title">Full Stack CRUD app</h4>
+          <h4 className="project-img-title">Full Stack CRUD App (AWS Deployment)</h4>
           <img className="project-img" src={crud} alt="CRUD Application Screenshot" />
           <p className="tools"> Tools: React, Bootstrap, Spring Boot, MySQL, Java, AWS, EC2, S3, RDS, Axios, Postman</p>
+
           <aisde className="img-links">
-            <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/"><p>Site (Deployed with AWS)</p></a>
+            <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/CRUD-FullStack"><p>Source</p></a>
           </aisde>
         </div>
@@ -25,7 +26,7 @@ const Projects = () => {
           <a href="https://outbound-flight-reservation.glitch.me/">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
-          <p className="tools"> Tools: JS, Node, Express, SQLlite, API, JSON</p>
+          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON</p>
           <aisde className="img-links">
             <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
