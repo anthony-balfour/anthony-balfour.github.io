@@ -21,10 +21,10 @@ const Intro = () => {
         <p id="hello">Hi!</p>
         <p className="intro-text">I'm <span id="introName">Anthony</span></p>
         <span className="intro-text" id="web-dev">FullStack Developer</span>
-        <p className="intro-paragraph">I have experience in full stack applications, AWS deployment, UI/UX design, web development, REST API's,
-          and database management.
-          Tools: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD </p>
-        {/* <p className="intro-paragraph">(and using pictures with ghost hands)</p> */}
+        <p className="intro-paragraph"> Highly motivated developer with experience in full stack applications, AWS deployment, UI/UX design, web development, REST API's,
+          and database management </p>
+          {/* Tools: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD </p> */}
+
 
         <Link id="intro-connect" to="contact" smooth={true} duration={600}>
           <span>Let's Connect</span>
