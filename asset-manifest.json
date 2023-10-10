@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bc90ac0.css",
-    "main.js": "/static/js/main.e59c29be.js",
+    "main.css": "/static/css/main.0156c3e9.css",
+    "main.js": "/static/js/main.b0ee4c4a.js",
     "static/media/dinner.jpg": "/static/media/dinner.4a60e5a7f7857213a6a7.jpg",
     "static/media/seahawks.png": "/static/media/seahawks.206fef3954bb66dbfe09.png",
     "static/media/dune.png": "/static/media/dune.ebec241b6e65d024ba4f.png",
     "static/media/expedia.png": "/static/media/expedia.882192675273493d3453.png",
     "static/media/self-photo-fullbody3.png": "/static/media/self-photo-fullbody3.a77654432bbb57169145.png",
     "static/media/crud.png": "/static/media/crud.d2c77a69bf403d0d752a.png",
-    "static/media/java.png": "/static/media/java.66d5a4fef00821dfe115.png",
     "static/media/linkedin.png": "/static/media/linkedin.5a9fae7fe01b779fb29b.png",
     "static/media/github.png": "/static/media/github.987334e9f782cc505f25.png",
+    "static/media/aws.svg": "/static/media/aws.dd9277c987f598698ebb019213869e94.svg",
     "index.html": "/index.html",
-    "main.7bc90ac0.css.map": "/static/css/main.7bc90ac0.css.map",
-    "main.e59c29be.js.map": "/static/js/main.e59c29be.js.map"
+    "main.0156c3e9.css.map": "/static/css/main.0156c3e9.css.map",
+    "main.b0ee4c4a.js.map": "/static/js/main.b0ee4c4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc90ac0.css",
-    "static/js/main.e59c29be.js"
+    "static/css/main.0156c3e9.css",
+    "static/js/main.b0ee4c4a.js"
   ]
 }
