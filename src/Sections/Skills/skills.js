@@ -7,14 +7,17 @@ import "./skills.css";
 
 // About Cards icon imports
 import { FaReact } from 'react-icons/fa';
+
 import fullStack from "../../assets/full-stack.png";
-import java from "../../assets/java.png";
+import aws from "../../assets/aws.svg";
+import { Link } from 'react-scroll';
+
 const Skills = () => {
   return (
       <section id="skills">
         <h2 className="skills-title">Skills</h2>
         <p className="skills-description">
-          Experience: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD, Postman
+          Experience: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Mobile-Responsiveness, CSS, Axios, Postman
         </p>
 
         <section className="skills-cards">
@@ -36,19 +39,18 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                I created a CRUD application using Spring Boot, React, MySQL, Postman, Axios and a
-                Flight Reservation App that uses JS, Node, Express, SQLite, REST APIs
+                I created two CRUD application using Spring Boot, React, MySQL, Bootstrap, Material UI, Postman, Axios and a
+                Flight Reservation App that uses JS, Node, Express, SQLite, REST API's
               </p>
             </div>
           </div>
 
           <div className="skills-card">
-            <img className="skills-card-image" src={java} alt="java logo"></img>
+            <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
             <div className="skills-card-text">
-              <h3>Java</h3>
-              <p>I have multiple projects using Spring Boot/Spring and
-                took most of my courses at the University of Washington in Java
-                (DSA, Programming fundamentals)
+              <h3>AWS</h3>
+              <p>I hosted two full stack applications on AWS using EC2 to host my Spring Boot app, RDS for MySQL database, and an S3 bucket  the React front end.
+                These projects are linked in the <Link className="projects-link" to="projects">projects</Link> section.
               </p>
             </div>
           </div>

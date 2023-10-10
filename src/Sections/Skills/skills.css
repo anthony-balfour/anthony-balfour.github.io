@@ -71,6 +71,12 @@ h3 {
   animation-play-state: paused;
 }
 
+.projects-link {
+  cursor: pointer;
+  
+}
+
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);

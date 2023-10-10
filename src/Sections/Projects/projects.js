@@ -36,24 +36,22 @@ const Projects = () => {
 
       <div className="projects-container" >
         <div className="project-container">
+          <h4 className="project-img-title">Full Stack Student Management App</h4>
+          <img className="project-img" src={seahawks} alt="Student Management App Screenshot" />
+          <p className="tools"> Tools: React, Spring Boot, MySQL, Material UI</p>
+          <aisde className="img-links">
+            {/* <a><p>Site</p></a> */}
+            <a href="https://github.com/anthony-balfour/Student-Management-System-FullStack"><p>Source</p></a>
+          </aisde>
+        </div>
+
+        <div className="project-container">
           <h4 className="project-img-title">Dune Summary API</h4>
           <img className="project-img" src={dune} alt="Dune Project Screenshot" />
           <p className="tools"> Tools: JS, Node, Node File System, API, JSON</p>
           <aisde className="img-links">
             <a href="https://dune-api-fs.glitch.me/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/DuneAPI"><p>Source</p></a>
-          </aisde>
-        </div>
-
-
-
-        <div className="project-container">
-          <h4 className="project-img-title">Seahawks Landing Page</h4>
-          <img className="project-img" src={seahawks} alt="Seahawks Project Screenshot" />
-          <p className="tools"> Tools: JS, CSS, HTML</p>
-          <aisde className="img-links">
-            {/* <a><p>Site</p></a> */}
-            <a href="https://github.com/anthony-balfour/seahawks-landing-page"><p>Source</p></a>
           </aisde>
         </div>
       </div>
