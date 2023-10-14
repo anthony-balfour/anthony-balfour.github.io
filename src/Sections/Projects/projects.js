@@ -36,9 +36,9 @@ const Projects = () => {
 
       <div className="projects-container" >
         <div className="project-container">
-          <h4 className="project-img-title">Full Stack Student Management App</h4>
+          <h4 className="project-img-title">Full Stack Student Management App(AWS Deployment)</h4>
           <img className="project-img" src={seahawks} alt="Student Management App Screenshot" />
-          <p className="tools"> Tools: React, Spring Boot, MySQL, Material UI</p>
+          <p className="tools"> Tools: React, Spring Boot, MySQL, Material UI, AWS (RDS, EC2, S3)</p>
           <aisde className="img-links">
             {/* <a><p>Site</p></a> */}
             <a href="https://github.com/anthony-balfour/Student-Management-System-FullStack"><p>Source</p></a>
