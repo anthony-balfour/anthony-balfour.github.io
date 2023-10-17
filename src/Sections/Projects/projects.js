@@ -4,7 +4,7 @@ import dune from "../../assets/dune.png";
 import crud from "../../assets/crud.png";
 import expedia from "../../assets/expedia.png";
 import seahawks from "../../assets/seahawks.png";
-import student from "../../assets/student..png"
+import student from "../../assets/student.png"
 
 const Projects = () => {
   return (
