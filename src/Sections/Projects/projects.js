@@ -40,7 +40,7 @@ const Projects = () => {
           <img className="project-img" src={seahawks} alt="Student Management App Screenshot" />
           <p className="tools"> Tools: React, Spring Boot, MySQL, Material UI, AWS (RDS, EC2, S3)</p>
           <aisde className="img-links">
-            {/* <a><p>Site</p></a> */}
+            <a href="http://student-system.s3-website.us-east-2.amazonaws.com"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/Student-Management-System-FullStack"><p>Source</p></a>
           </aisde>
         </div>
