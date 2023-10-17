@@ -4,6 +4,7 @@ import dune from "../../assets/dune.png";
 import crud from "../../assets/crud.png";
 import expedia from "../../assets/expedia.png";
 import seahawks from "../../assets/seahawks.png";
+import student from "../../assets/student..png"
 
 const Projects = () => {
   return (
@@ -36,8 +37,9 @@ const Projects = () => {
 
       <div className="projects-container" >
         <div className="project-container">
-          <h4 className="project-img-title">Full Stack Student Management App(AWS Deployment)</h4>
-          <img className="project-img" src={seahawks} alt="Student Management App Screenshot" />
+          <h4 className="project-img-title">Full Stack Student Management App</h4>
+          <h4>AWS Deployment</h4>
+          <img className="project-img" src={student} alt="Student Management App Screenshot" />
           <p className="tools"> Tools: React, Spring Boot, MySQL, Material UI, AWS (RDS, EC2, S3)</p>
           <aisde className="img-links">
             <a href="http://student-system.s3-website.us-east-2.amazonaws.com"><p>Site</p></a>
