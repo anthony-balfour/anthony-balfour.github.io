@@ -146,6 +146,7 @@ It uses flexbox and a white coloring in conjuction with dark background */
   top: 20px;
   right: 5rem;
   z-index: 15;
+  cursor: pointer;
 }
 
 .hamburger-hide {
