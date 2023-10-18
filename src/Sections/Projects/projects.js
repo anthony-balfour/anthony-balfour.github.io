@@ -12,7 +12,9 @@ const Projects = () => {
       <div className="projects-container">
         <div className="project-container">
           <h4 className="project-img-title">Full Stack CRUD App (AWS Deployment)</h4>
-          <img className="project-img" src={crud} alt="CRUD Application Screenshot" />
+          <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/">
+            <img className="project-img" src={crud} alt="CRUD Application Screenshot" />
+          </a>
           <p className="tools"> Tools: React, Bootstrap, Spring Boot, MySQL, Java, AWS, EC2, S3, RDS, Axios, Postman</p>
 
           <aisde className="img-links">
@@ -26,7 +28,7 @@ const Projects = () => {
           <a href="https://outbound-flight-reservation.glitch.me/">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
-          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON</p>
+          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Glitch deployment</p>
           <aisde className="img-links">
             <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
@@ -37,8 +39,10 @@ const Projects = () => {
       <div className="projects-container" >
         <div className="project-container">
           <h4>Full Stack Student Management App</h4>
-          <h4 className="project-img-title">AWS Deployment</h4>
-          <img className="project-img" src={student} alt="Student Management App Screenshot" />
+          <h4 className="project-img-title">(AWS Deployment)</h4>
+          <a href="http://student-system.s3-website.us-east-2.amazonaws.com">
+            <img className="project-img" src={student} alt="Student Management App Screenshot" />
+          </a>
           <p className="tools"> Tools: React, Spring Boot, MySQL, Material UI, AWS (RDS, EC2, S3)</p>
           <aisde className="img-links">
             <a href="http://student-system.s3-website.us-east-2.amazonaws.com"><p>Site</p></a>
@@ -51,7 +55,7 @@ const Projects = () => {
           <img className="project-img" src={dune} alt="Dune Project Screenshot" />
           <p className="tools"> Tools: JS, Node, Node File System, API, JSON</p>
           <aisde className="img-links">
-            <a href="https://dune-api-fs.glitch.me/"><p>Site</p></a>
+            {/* <a href="https://dune-api-fs.glitch.me/"><p>Site</p></a> */}
             <a href="https://github.com/anthony-balfour/DuneAPI"><p>Source</p></a>
           </aisde>
         </div>
