@@ -28,7 +28,7 @@ const Skills = () => {
             </div>
             <div className="skills-card-text">
               <h3>React UX/UI Design</h3>
-              <p> I have multiple fullstack projects in React; this website was also made with React.
+              <p> I have multiple fullstack projects in React use Bootstrap, Material UI, and mobile responsiveness; this website was made with React.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Skills = () => {
             <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
             <div className="skills-card-text">
               <h3>AWS</h3>
-              <p>I hosted two full stack applications on AWS using EC2 to host my Spring Boot app, RDS for MySQL database, and an S3 bucket for the React front end.
+              <p>I hosted two full stack applications on AWS using EC2 to host my Spring Boot apps, RDS for each MySQL database, and an S3 bucket for each React front end.
                 These projects are linked in the <Link className="projects-link" to="projects"> spy={true} smooth = {true} duration = {500}projects</Link> section.
               </p>
             </div>
