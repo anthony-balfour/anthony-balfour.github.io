@@ -49,7 +49,7 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>AWS</h3>
               <p>I hosted two full stack applications on AWS using EC2 to host my Spring Boot apps, RDS for each MySQL database, and an S3 bucket for each React front end.
-                These projects are linked in the <Link className="projects-link" to="projects"> spy={true} smooth = {true} duration = {500}projects</Link> section.
+                These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section.
               </p>
             </div>
           </div>
