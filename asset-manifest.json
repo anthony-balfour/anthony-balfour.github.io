@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.addc9b3e.css",
-    "main.js": "/static/js/main.6118835a.js",
+    "main.js": "/static/js/main.47b21b7f.js",
     "static/media/dinner.jpg": "/static/media/dinner.4a60e5a7f7857213a6a7.jpg",
     "static/media/dune.png": "/static/media/dune.ebec241b6e65d024ba4f.png",
     "static/media/expedia.png": "/static/media/expedia.882192675273493d3453.png",
@@ -13,10 +13,10 @@
     "static/media/aws.svg": "/static/media/aws.dd9277c987f598698ebb019213869e94.svg",
     "index.html": "/index.html",
     "main.addc9b3e.css.map": "/static/css/main.addc9b3e.css.map",
-    "main.6118835a.js.map": "/static/js/main.6118835a.js.map"
+    "main.47b21b7f.js.map": "/static/js/main.47b21b7f.js.map"
   },
   "entrypoints": [
     "static/css/main.addc9b3e.css",
-    "static/js/main.6118835a.js"
+    "static/js/main.47b21b7f.js"
   ]
 }
