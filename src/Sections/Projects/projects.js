@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
-          <h4 className="project-img-title">Full Stack Flight Reservation App</h4>
+          <h4 className="project-img-title">Full Stack Expedia App</h4>
           <a href="https://outbound-flight-reservation.glitch.me/">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
