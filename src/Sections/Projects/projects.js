@@ -10,6 +10,19 @@ const Projects = () => {
     <section id="projects">
       <h2 className="projects-title">Projects</h2>
       <div className="projects-container">
+
+      <div className="project-container">
+          <h4 className="project-img-title">Full Stack Expedia App</h4>
+          <a href="https://outbound-flight-reservation.glitch.me/">
+            <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
+          </a>
+          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Glitch deployment</p>
+          <aisde className="img-links">
+            <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
+          </aisde>
+        </div>
+
         <div className="project-container">
           <h4 className="project-img-title">Full Stack CRUD App (AWS Deployment)</h4>
           <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/">
@@ -22,18 +35,7 @@ const Projects = () => {
             <a href="https://github.com/anthony-balfour/CRUD-FullStack"><p>Source</p></a>
           </aisde>
         </div>
-
-        <div className="project-container">
-          <h4 className="project-img-title">Full Stack Expedia App</h4>
-          <a href="https://outbound-flight-reservation.glitch.me/">
-            <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
-          </a>
-          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Glitch deployment</p>
-          <aisde className="img-links">
-            <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
-            <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
-          </aisde>
-        </div>
+        
       </div>
 
       <div className="projects-container" >

@@ -38,8 +38,8 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                I created two CRUD applications using Spring Boot, React, MySQL, Bootstrap, Material UI, Postman, Axios and a
-                Flight Reservation App that uses JS, Node, Express, SQLite, REST API's
+                I created Flight Reservation App that includes API design, user auth, and database management. I created
+                two simple CRUD applications using Spring Boot, React, MySQL, Bootstrap, Material UI, Postman, and Axios.
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>AWS</h3>
               <p>I hosted two full stack applications on AWS using EC2 to host my Spring Boot apps, RDS for each MySQL database, and an S3 bucket for each React front end.
-                These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section.
+                These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. I am currently learning Terraform.
               </p>
             </div>
           </div>
