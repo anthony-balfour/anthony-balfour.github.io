@@ -1,6 +1,6 @@
 import React from 'react'
 import "./projects.css"
-import dune from "../../assets/dune.png";
+import game from "../../assets/2048.png";
 import crud from "../../assets/crud.png";
 import expedia from "../../assets/expedia.png";
 import student from "../../assets/student.png"
@@ -35,10 +35,21 @@ const Projects = () => {
             <a href="https://github.com/anthony-balfour/CRUD-FullStack"><p>Source</p></a>
           </aisde>
         </div>
-        
+
       </div>
 
       <div className="projects-container" >
+
+      <div className="project-container">
+          <h4 className="project-img-title">Docker deployed 2048 Game</h4>
+          <img className="project-img" src={game} alt="2048 Game ScreenShot" />
+          <p className="tools"> Tools: Docker, AWS Elastic Beanstalk, AWS Console</p>
+          <aisde className="img-links">
+            <a href="http://2048game-env.eba-qztgmemc.us-east-2.elasticbeanstalk.com/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
+          </aisde>
+        </div>
+
         <div className="project-container">
           <h4>Full Stack Student Management App</h4>
           <h4 className="project-img-title">(AWS Deployment)</h4>
@@ -49,16 +60,6 @@ const Projects = () => {
           <aisde className="img-links">
             <a href="http://student-system.s3-website.us-east-2.amazonaws.com"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/Student-Management-System-FullStack"><p>Source</p></a>
-          </aisde>
-        </div>
-
-        <div className="project-container">
-          <h4 className="project-img-title">Dune Summary API</h4>
-          <img className="project-img" src={dune} alt="Dune Project Screenshot" />
-          <p className="tools"> Tools: JS, Node, Node File System, API, JSON</p>
-          <aisde className="img-links">
-            {/* <a href="https://dune-api-fs.glitch.me/"><p>Site</p></a> */}
-            <a href="https://github.com/anthony-balfour/DuneAPI"><p>Source</p></a>
           </aisde>
         </div>
       </div>
