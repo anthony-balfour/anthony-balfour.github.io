@@ -12,23 +12,36 @@ const Projects = () => {
       <div className="projects-container">
 
       <div className="project-container">
-          <h4 className="project-img-title">Full Stack Expedia App</h4>
-          <a href="https://outbound-flight-reservation.glitch.me/">
+          <h4 className="project-img-title">Full Stack Expedia App (Docker/AWS Elastic Beanstalk)</h4>
+          <a href="http://expediafullstack-env.eba-z2mpc9nt.us-east-2.elasticbeanstalk.com/index.html">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
-          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Glitch deployment</p>
+          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Docker, AWS Console</p>
           <aisde className="img-links">
-            <a href="https://outbound-flight-reservation.glitch.me/"><p>Site</p></a>
+            <a href="http://expediafullstack-env.eba-z2mpc9nt.us-east-2.elasticbeanstalk.com/index.html"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
           </aisde>
         </div>
 
         <div className="project-container">
+          <h4 className="project-img-title">Docker deployed 2048 Game (AWS Elastic Beanstalk)</h4>
+          <img className="project-img" src={game} alt="2048 Game ScreenShot" />
+          <p className="tools"> Tools: Docker, AWS Console</p>
+          <aisde className="img-links">
+            <a href="http://2048game-env.eba-qztgmemc.us-east-2.elasticbeanstalk.com/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
+          </aisde>
+        </div>
+
+      </div>
+
+      <div className="projects-container" >
+        <div className="project-container">
           <h4 className="project-img-title">Full Stack CRUD App (AWS Deployment)</h4>
           <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/">
             <img className="project-img" src={crud} alt="CRUD Application Screenshot" />
           </a>
-          <p className="tools"> Tools: React, Bootstrap, Spring Boot, MySQL, Java, AWS, EC2, S3, RDS, Axios, Postman</p>
+          <p className="tools"> Tools: React, Bootstrap, Spring Boot, MySQL, Java, AWS (EC2, RDS, S3), Axios, Postman</p>
 
           <aisde className="img-links">
             <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/"><p>Site</p></a>
@@ -36,22 +49,8 @@ const Projects = () => {
           </aisde>
         </div>
 
-      </div>
-
-      <div className="projects-container" >
-
-      <div className="project-container">
-          <h4 className="project-img-title">Docker deployed 2048 Game</h4>
-          <img className="project-img" src={game} alt="2048 Game ScreenShot" />
-          <p className="tools"> Tools: Docker, AWS Elastic Beanstalk, AWS Console</p>
-          <aisde className="img-links">
-            <a href="http://2048game-env.eba-qztgmemc.us-east-2.elasticbeanstalk.com/"><p>Site</p></a>
-            <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
-          </aisde>
-        </div>
-
         <div className="project-container">
-          <h4>Full Stack Student Management App</h4>
+          <h4>Full Stack Add Student App</h4>
           <h4 className="project-img-title">(AWS Deployment)</h4>
           <a href="http://student-system.s3-website.us-east-2.amazonaws.com">
             <img className="project-img" src={student} alt="Student Management App Screenshot" />
