@@ -38,7 +38,7 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                I created Flight Reservation App that includes API design, user auth, and database management. I created
+                I created Flight Reservation App that includes API designs, User Auth, and database management. I created
                 two simple CRUD applications using Spring Boot, React, MySQL, Bootstrap, Material UI, Postman, and Axios.
               </p>
             </div>
