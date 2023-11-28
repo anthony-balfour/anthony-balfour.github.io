@@ -33,6 +33,7 @@ A title appears above each project and on click more project information is give
   flex-direction: column;
   align-items: center;
 }
+
 /* Image Styling */
 
 .project-img {
@@ -46,9 +47,8 @@ A title appears above each project and on click more project information is give
 
 .project-img-title {
   margin-bottom: 1rem;
+  text-align: center;
 }
-
-
 
 .tools {
   max-width: 20rem;

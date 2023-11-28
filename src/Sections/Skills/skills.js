@@ -27,8 +27,8 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                I created a Flight Reservation App which implements designed API's, simple user auth, and database management. I created
-                two simple CRUD applications using Spring Boot, React, MySQL, Bootstrap, Material UI, Postman, and Axios.
+                Created a Flight Reservation App which implements designed API's, simple user auth, and database management. Also,
+                two simple CRUD applications using Spring Boot, React, MySQL, Bootstrap, Postman, and Axios.
               </p>
             </div>
           </div>
@@ -37,8 +37,8 @@ const Skills = () => {
             <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
             <div className="skills-card-text">
               <h3>AWS</h3>
-              <p> I have hosted 4 apps with the AWS using the console and EC2, RDS, S3 and Elastic Beanstalk. Two of the apps utilize Docker.
-                These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. I am currently learning Terraform.
+              <p> Hosted 4 apps with the AWS Console, EC2, RDS, S3 and Elastic Beanstalk. Two of the apps utilize Docker. I am currently learning Terraform.
+                {/* These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. */}
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Skills = () => {
             </div>
             <div className="skills-card-text">
               <h3>React </h3>
-              <p> I have multiple fullstack projects in React use Bootstrap, Material UI, and mobile responsiveness; this website was made with React.
+              <p> Multiple fullstack projects in React including this website and two of the mentioned Full Stack projects
               </p>
             </div>
           </div>
