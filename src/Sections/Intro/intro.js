@@ -22,7 +22,7 @@ const Intro = () => {
         <p className="intro-text">I'm <span id="introName">Anthony</span></p>
         <span className="intro-text" id="web-dev">FullStack Developer</span>
         <p className="intro-paragraph"> Highly motivated developer with experience in React, Java, Web Development, AWS Deployment, REST API's,
-          and MySQL </p>
+          and MySQL seeking entry level position!</p>
           {/* Tools: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD </p> */}
 
 
