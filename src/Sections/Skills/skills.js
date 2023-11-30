@@ -17,7 +17,7 @@ const Skills = () => {
       <section id="skills">
         <h2 className="skills-title">Skills</h2>
         <p className="skills-description">
-          Experience: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Mobile-Responsiveness, CSS, Axios, Postman
+          Experience: React, Java, MySQL, Node, Express, Spring Boot, AWS (EC2, S3, RDS), Docker, Mobile-Responsiveness, CSS
         </p>
 
         <section className="skills-cards">
