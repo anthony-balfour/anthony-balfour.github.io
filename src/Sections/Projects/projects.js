@@ -12,8 +12,8 @@ const Projects = () => {
       <div className="projects-container">
 
       <div className="project-container">
-          <h4 className="project-img-title">Full Stack Expedia App (Docker/AWS Elastic Beanstalk)</h4>
-          <a href="http://expediafullstack-env.eba-z2mpc9nt.us-east-2.elasticbeanstalk.com/index.html">
+          <h4 className="project-img-title">Full Stack Expedia App (Docker/AWS EC2)</h4>
+          <a href="http://3.14.251.109:8000/">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
           <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Docker, AWS Console</p>
