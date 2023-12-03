@@ -3,7 +3,8 @@ import "./projects.css"
 import game from "../../assets/2048.png";
 import crud from "../../assets/crud.png";
 import expedia from "../../assets/expedia.png";
-import student from "../../assets/student.png"
+import student from "../../assets/student.png";
+import seahawks from "../../assets/seahawks.png";
 
 const Projects = () => {
   return (
@@ -67,6 +68,22 @@ const Projects = () => {
         </div>
       </div>
       {/* <button className="projects-see-more">See More</button> */}
+      <div className="projects-container" >
+
+        <div className="project-container">
+          <h4>Seahawks Landing Page (static)</h4>
+          <h4 className="project-img-title">(AWS S3 Bucket) </h4>
+          <a href="http://seahawks-landing-page.s3-website.us-east-2.amazonaws.com/" >
+            <img className="project-img" src={seahawks} alt="Seahawks Landing Page Screenshot" />
+          </a>
+
+          <p className="tools"> Tools: JavaScript, HTML5, CSS3</p>
+          <aisde className="img-links">
+            <a href="http://seahawks-landing-page.s3-website.us-east-2.amazonaws.com/"><p>Site</p></a>
+          </aisde>
+        </div>
+
+      </div>
     </section>
   )
 }
