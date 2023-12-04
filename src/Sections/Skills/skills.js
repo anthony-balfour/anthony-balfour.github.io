@@ -27,8 +27,8 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Full Stack Development</h3>
               <p>
-                Created a Flight Reservation App which implements designed API's, simple user auth, and database management. Also,
-                two simple CRUD applications using Spring Boot, React, MySQL, Bootstrap, Postman, and Axios.
+                Created a Flight Reservation App which implements designed RESTful API's in Node interfaced with JavaScript front end and a SQLite database. Also,
+                two user management full stack apps in which users can be created, read, updated, and deleted.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Skills = () => {
             <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
             <div className="skills-card-text">
               <h3>AWS</h3>
-              <p> Hosted 4 apps with the AWS Console, EC2, RDS, S3 and Elastic Beanstalk. Two of the apps utilize Docker. I am currently learning Terraform.
+              <p> Hosted 5 apps with the AWS Console, EC2, RDS, S3 and Elastic Beanstalk. Two of the apps are containerized with Docker. I am currently learning Terraform.
                 {/* These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. */}
               </p>
             </div>
@@ -49,7 +49,7 @@ const Skills = () => {
             </div>
             <div className="skills-card-text">
               <h3>React </h3>
-              <p> Multiple fullstack projects in React including this website and two of the mentioned Full Stack projects
+              <p> Created multiple full stack projects with React and this website.
               </p>
             </div>
           </div>

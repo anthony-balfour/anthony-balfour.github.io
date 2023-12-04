@@ -45,11 +45,13 @@ const Projects = () => {
 
         <div className="project-container">
           <h4>Docker deployed 2048 Game </h4>
-          <h4 className="project-img-title">(AWS Elastic Beanstalk) </h4>
-          <img className="project-img" src={game} alt="2048 Game ScreenShot" />
+          <h4 className="project-img-title">(AWS EC2) </h4>
+          <a href="http://3.14.251.109:8003/">
+            <img className="project-img" src={game} alt="2048 Game ScreenShot" />
+          </a>
           <p className="tools"> Tools: Docker, AWS Console</p>
           <aisde className="img-links">
-            {/* <a href="http://2048game-env.eba-qztgmemc.us-east-2.elasticbeanstalk.com/"><p>Site</p></a> */}
+            <a href="http://3.14.251.109:8003/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
           </aisde>
         </div>
@@ -72,7 +74,7 @@ const Projects = () => {
 
         <div className="project-container">
           <h4>Seahawks Landing Page (static)</h4>
-          <h4 className="project-img-title">(AWS S3 Bucket) </h4>
+          <h4 className="project-img-title">(S3 Bucket) </h4>
           <a href="http://seahawks-landing-page.s3-website.us-east-2.amazonaws.com/" >
             <img className="project-img" src={seahawks} alt="Seahawks Landing Page Screenshot" />
           </a>
