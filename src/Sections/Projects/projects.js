@@ -26,7 +26,7 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
-          <h4>Full Stack CRUD App</h4>
+          <h4>Full Stack User Management App</h4>
           <h4 className="project-img-title">(AWS Deployment)</h4>
           <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/">
             <img className="project-img" src={crud} alt="CRUD Application Screenshot" />
@@ -57,7 +57,7 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
-          <h4>Full Stack Add Student App</h4>
+          <h4>Full Stack Student Management App</h4>
           <h4 className="project-img-title">(AWS Deployment)</h4>
           <a href="http://student-system.s3-website.us-east-2.amazonaws.com">
             <img className="project-img" src={student} alt="Student Management App Screenshot" />

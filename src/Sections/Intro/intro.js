@@ -7,7 +7,7 @@
 
 import React from 'react'
 import "./intro.css";
-import portrait from "../../assets/self-photo-fullbody3.png";
+import portrait from "../../assets/wolfpicwithmebg.png";
 /* Font Awesome */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -34,7 +34,7 @@ const Intro = () => {
 
       <aside>
         <figure>
-          <img src= {portrait} alt="headshot of Anthony" id='portrait'></img>
+          {/* <img src= {portrait} alt="headshot of Anthony" id='portrait'></img> */}
         </figure>
       </aside>
     </section>
