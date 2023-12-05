@@ -27,6 +27,7 @@ The self-portrait is positioned in the second half of the page
   display: flex;
   flex-direction: column;
   justify-content: center;
+  outline: 10px solid teal;
 }
 
 #hello {
