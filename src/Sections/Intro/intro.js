@@ -20,7 +20,7 @@ const Intro = () => {
       <section id="intro-content">
         <p id="hello">Hi!</p>
         <p className="intro-text">I'm <span id="introName">Anthony</span></p>
-        <span className="intro-text" id="web-dev">Web Developer</span>
+        <span className="intro-text" id="web-dev">Full Stack Developer</span>
         <p className="intro-paragraph"> Highly motivated developer with experience in React, Java, AWS Deployment, REST API's, Docker, Terraform,
           and MySQL seeking entry level position!</p>
           {/* Tools: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD </p> */}

@@ -16,6 +16,7 @@
 .about-description-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 80vh;
   transform: translateY(-2rem);
@@ -26,9 +27,8 @@
   line-height: 1.3;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  padding-top: 3rem;
+  padding-top: 1rem;
   text-align: center;
-
 }
 
 .head-shot {
@@ -38,7 +38,7 @@
   object-fit: cover;
   border-radius: 2px;
   margin-bottom: 3rem;
-  opacity: 0.54;
+  opacity: 0.5;
   z-index: -1;
   top: 5rem;
 }
