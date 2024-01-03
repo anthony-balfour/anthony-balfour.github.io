@@ -5,6 +5,7 @@ import crud from "../../assets/crud.png";
 import expedia from "../../assets/expedia.png";
 import student from "../../assets/student.png";
 import seahawks from "../../assets/seahawks.png";
+import musicplayer from "../../assets/musicplayer.png";
 
 const Projects = () => {
   return (
@@ -26,6 +27,24 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
+          <h4>Spotify API React Music Player</h4>
+          <h4 className="project-img-title">(Docker/AWS EC2)</h4>
+          <a href="http://3.14.251.109:8004/">
+            <img className="project-img" src={musicplayer} alt="CRUD Application Screenshot" />
+          </a>
+          <p className="tools"> Tools: React, Docker, Spotify API, AWS </p>
+
+          <aisde className="img-links">
+            <a href="http://3.14.251.109:8004/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/SpotifyAPI_MusicPlayerReact"><p>Source</p></a>
+          </aisde>
+        </div>
+
+      </div>
+
+      <div className="projects-container" >
+
+      <div className="project-container">
           <h4>Full Stack User Management App</h4>
           <h4 className="project-img-title">(AWS Deployment)</h4>
           <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/">
@@ -36,23 +55,6 @@ const Projects = () => {
           <aisde className="img-links">
             <a href="http://crudfullstack.s3-website.us-east-2.amazonaws.com/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/CRUD-FullStack"><p>Source</p></a>
-          </aisde>
-        </div>
-
-      </div>
-
-      <div className="projects-container" >
-
-        <div className="project-container">
-          <h4>Docker deployed 2048 Game </h4>
-          <h4 className="project-img-title">(AWS EC2) </h4>
-          <a href="http://3.14.251.109:8003/">
-            <img className="project-img" src={game} alt="2048 Game ScreenShot" />
-          </a>
-          <p className="tools"> Tools: Docker, AWS Console</p>
-          <aisde className="img-links">
-            <a href="http://3.14.251.109:8003/"><p>Site</p></a>
-            <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
           </aisde>
         </div>
 
@@ -71,6 +73,19 @@ const Projects = () => {
       </div>
       {/* <button className="projects-see-more">See More</button> */}
       <div className="projects-container" >
+
+      <div className="project-container">
+          <h4>Docker deployed 2048 Game </h4>
+          <h4 className="project-img-title">(AWS EC2) </h4>
+          <a href="http://3.14.251.109:8003/">
+            <img className="project-img" src={game} alt="2048 Game ScreenShot" />
+          </a>
+          <p className="tools"> Tools: Docker, AWS Console</p>
+          <aisde className="img-links">
+            <a href="http://3.14.251.109:8003/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
+          </aisde>
+        </div>
 
         <div className="project-container">
           <h4>Seahawks Landing Page (static)</h4>
