@@ -6,6 +6,7 @@ import expedia from "../../assets/expedia.png";
 import student from "../../assets/student.png";
 import seahawks from "../../assets/seahawks.png";
 import musicplayer from "../../assets/musicplayer.png";
+import rtr from "../../assets/rtr.png";
 
 const Projects = () => {
   return (
@@ -13,7 +14,20 @@ const Projects = () => {
       <h2 className="projects-title">Projects</h2>
       <div className="projects-container">
 
-      <div className="project-container">
+        <div className="project-container">
+          <h4>Rainier Tech Roots Website </h4>
+          <h4 className="project-img-title">(AWS CloudFront/S3) </h4>
+          <a href="https://d21ekyhpilwd3m.cloudfront.net/">
+            <img className="project-img" src={rtr} alt="Rainier Tech Roots Website Landing Page" />
+          </a>
+          <p className="tools"></p>
+          <aisde className="img-links">
+            <a href="https://d21ekyhpilwd3m.cloudfront.net/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/RainierTechRootsSite"><p>Source</p></a>
+          </aisde>
+        </div>
+
+        <div className="project-container">
           <h4>Full Stack Expedia App</h4>
           <h4 className="project-img-title">(Docker/AWS EC2)</h4>
           <a href="http://3.14.251.109:8000/">
@@ -23,20 +37,6 @@ const Projects = () => {
           <aisde className="img-links">
             <a href="http://3.14.251.109:8000/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
-          </aisde>
-        </div>
-
-        <div className="project-container">
-          <h4>Spotify API React Music Player</h4>
-          <h4 className="project-img-title">(Docker/AWS EC2)</h4>
-          <a href="http://3.14.251.109:8004/">
-            <img className="project-img" src={musicplayer} alt="CRUD Application Screenshot" />
-          </a>
-          <p className="tools"> Tools: React, Docker, Spotify API, AWS </p>
-
-          <aisde className="img-links">
-            <a href="http://3.14.251.109:8004/"><p>Site</p></a>
-            <a href="https://github.com/anthony-balfour/SpotifyAPI_MusicPlayerReact"><p>Source</p></a>
           </aisde>
         </div>
 
@@ -59,6 +59,20 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
+          <h4>Spotify API React Music Player</h4>
+          <h4 className="project-img-title">(Docker/AWS EC2)</h4>
+          <a href="http://3.14.251.109:8004/">
+            <img className="project-img" src={musicplayer} alt="CRUD Application Screenshot" />
+          </a>
+          <p className="tools"> Tools: React, Docker, Spotify API, AWS </p>
+
+          <aisde className="img-links">
+            <a href="http://3.14.251.109:8004/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/SpotifyAPI_MusicPlayerReact"><p>Source</p></a>
+          </aisde>
+        </div>
+
+        {/* <div className="project-container">
           <h4>Full Stack Student Management App</h4>
           <h4 className="project-img-title">(AWS Deployment)</h4>
           <a href="http://student-system.s3-website.us-east-2.amazonaws.com">
@@ -69,21 +83,22 @@ const Projects = () => {
             <a href="http://student-system.s3-website.us-east-2.amazonaws.com"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/Student-Management-System-FullStack"><p>Source</p></a>
           </aisde>
-        </div>
+        </div> */}
+
       </div>
       {/* <button className="projects-see-more">See More</button> */}
       <div className="projects-container" >
 
       <div className="project-container">
-          <h4>Docker deployed 2048 Game </h4>
-          <h4 className="project-img-title">(AWS EC2) </h4>
-          <a href="http://3.14.251.109:8003/">
-            <img className="project-img" src={game} alt="2048 Game ScreenShot" />
+          <h4>Rainier Tech Roots Website </h4>
+          <h4 className="project-img-title">(AWS CloudFront/S3) </h4>
+          <a href="https://d21ekyhpilwd3m.cloudfront.net/">
+            <img className="project-img" src={rtr} alt="Rainier Tech Roots Website Landing Page" />
           </a>
-          <p className="tools"> Tools: Docker, AWS Console</p>
+          <p className="tools"></p>
           <aisde className="img-links">
-            <a href="http://3.14.251.109:8003/"><p>Site</p></a>
-            <a href="https://github.com/anthony-balfour/Docker2048"><p>Source</p></a>
+            <a href="https://d21ekyhpilwd3m.cloudfront.net/"><p>Site</p></a>
+            <a href="https://github.com/anthony-balfour/RainierTechRootsSite"><p>Source</p></a>
           </aisde>
         </div>
 

@@ -17,10 +17,22 @@ const Skills = () => {
       <section id="skills">
         <h2 className="skills-title">Skills</h2>
         <p className="skills-description">
-          React, Java, MySQL, Node, Express, Spring Boot, AWS (EC2, S3, RDS), Docker, Terraform basics, Mobile-Responsiveness, CSS3
+          React, TypeScript, Node, Java, MySQL, Spring Boot, AWS Infrastructure, Docker, Scrum
         </p>
 
         <section className="skills-cards">
+
+        <div className="skills-card">
+            <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
+            <div className="skills-card-text">
+              <h3>AWS</h3>
+              <p> Implented a static front-end with CloudFront and S3 as an intern. I am currently
+                studying for the AWS Certified Solutions Architect (SAA-C03) and have multiple personal
+                projects using EC2, RDS, and S3.
+                {/* These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. */}
+              </p>
+            </div>
+        </div>
 
         <div className="skills-card">
             <img className="skills-card-image" src= {fullStack} alt="full stack icon" />
@@ -34,22 +46,13 @@ const Skills = () => {
           </div>
 
           <div className="skills-card">
-            <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
-            <div className="skills-card-text">
-              <h3>AWS</h3>
-              <p> Hosted 5 apps with the AWS Console, EC2, RDS, S3 and Elastic Beanstalk. Two of the apps are containerized with Docker. I am currently learning Terraform.
-                {/* These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. */}
-              </p>
-            </div>
-          </div>
-
-          <div className="skills-card">
             <div className="skills-card-image">
               <FaReact className="react-icon" />
             </div>
             <div className="skills-card-text">
               <h3>React </h3>
-              <p> Created multiple full stack projects with React and this website.
+              <p> Worked on a React/TypeScript Emergency Alerts OTT App as an intern.
+                I've created multiple personal projects with React.
               </p>
             </div>
           </div>

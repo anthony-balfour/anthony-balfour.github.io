@@ -11,10 +11,12 @@ export const About = () => {
         <p className="about-description">
         {/* I was born in Seattle and have lived here most of my life. For fun I do boxing, jiu-jitsu, tennis, and read. I am currently reading the Dune series (God Emperor of Dune). I love watching anime!
          One piece is a favorite and Beach House is one of my favorite music bands. */}
-         I graduated from the University of Washington in 2023 with courses in Full Stack Web Development, Data Structures and Algorithms, and Java!
+         I graduated from the University of Washington in 2023 taking Computer Science courses in Full Stack Web Development, Data Structures and Algorithms, and Java!
         </p>
-        <p className="about-description">I've continued learning through projects since graduating
-         by creating two Full Stack React/Spring Boot User Management Apps, and deploying those apps and previous ones with Docker and AWS. I am currently learning Terraform! Thanks</p>
+        <p className="about-description">I am a Kodely Tech Program Leader, tutoring elemntary students
+        in technology (electrical circuits specifically) and am a co-founder of a nonprofit, Rainier Tech Roots, where my team
+        teaches programming to local youth for free.
+        </p>
       </div>
     </section>
   )
