@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a111c732.css",
-    "main.js": "/static/js/main.9f54c1dd.js",
+    "main.js": "/static/js/main.ee7637ad.js",
     "static/media/musicplayer.png": "/static/media/musicplayer.c33d4301e3fb48b96150.png",
     "static/media/dinner.jpg": "/static/media/dinner.4a60e5a7f7857213a6a7.jpg",
     "static/media/seahawks.png": "/static/media/seahawks.206fef3954bb66dbfe09.png",
@@ -16,10 +16,10 @@
     "static/media/aws.svg": "/static/media/aws.dd9277c987f598698ebb019213869e94.svg",
     "index.html": "/index.html",
     "main.a111c732.css.map": "/static/css/main.a111c732.css.map",
-    "main.9f54c1dd.js.map": "/static/js/main.9f54c1dd.js.map"
+    "main.ee7637ad.js.map": "/static/js/main.ee7637ad.js.map"
   },
   "entrypoints": [
     "static/css/main.a111c732.css",
-    "static/js/main.9f54c1dd.js"
+    "static/js/main.ee7637ad.js"
   ]
 }
