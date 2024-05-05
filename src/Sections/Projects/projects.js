@@ -29,13 +29,13 @@ const Projects = () => {
 
         <div className="project-container">
           <h4>Full Stack Expedia App</h4>
-          <h4 className="project-img-title">(Docker/AWS EC2)</h4>
-          <a href="http://3.14.251.109:8000/">
+          <h4 className="project-img-title">(AWS S3/Glitch hosting)</h4>
+          <a href="http://flight-reservation-app.s3-website.us-east-2.amazonaws.com	">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
           <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Docker, AWS Console</p>
           <aisde className="img-links">
-            <a href="http://3.14.251.109:8000/"><p>Site</p></a>
+            <a href="http://flight-reservation-app.s3-website.us-east-2.amazonaws.com	"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
           </aisde>
         </div>
