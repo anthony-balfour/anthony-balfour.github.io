@@ -26,33 +26,33 @@ const Skills = () => {
             <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
             <div className="skills-card-text">
               <h3>AWS</h3>
-              <p> Implented a static front-end with CloudFront and S3 as an intern. I am currently
-                studying for the AWS Certified Solutions Architect (SAA-C03) and have multiple personal
-                projects using EC2, RDS, and S3.
+              <p> Implemented AWS CloudFront and S3 architecture for multiple TV apps. I have multiple
+                personal projects using EC2, RDS, and S3, ACM, and CloudFront.
                 {/* These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. */}
               </p>
             </div>
         </div>
 
         <div className="skills-card">
-            <img className="skills-card-image" src= {fullStack} alt="full stack icon" />
+             <div className="skills-card-image">
+              <FaReact className="react-icon" />
+            </div>
             <div className="skills-card-text">
-              <h3>Full Stack Development</h3>
+              <h3>Front-End Development</h3>
               <p>
-                Created a Flight Reservation App which implements designed RESTful API's in Node interfaced with JavaScript front end and a SQLite database. Also,
-                two user management full stack apps in which users can be created, read, updated, and deleted.
+                I had experience with a Typescript/React interactive TV app and developed
+                a scaled front end interactive TV app within a 3rd party framework for ATSC 3.0. I have multiple full stack projects including a
+                flight reservation App which implements designed RESTful API's in Node interfaced with JavaScript front end and a MySQL database.
               </p>
             </div>
           </div>
 
           <div className="skills-card">
-            <div className="skills-card-image">
-              <FaReact className="react-icon" />
-            </div>
+          <img className="skills-card-image" src= {fullStack} alt="full stack icon" />
             <div className="skills-card-text">
-              <h3>React </h3>
-              <p> Worked on a React/TypeScript Emergency Alerts OTT App as an intern.
-                I've created multiple personal projects with React.
+              <h3>CI/CD with Terraform </h3>
+              <p> I set up AWS resources in Terraform @ Sinclair using Terraform. I developed an app
+                using Gitlab pipelines and contributed heavily to the INT/QA development of that app.
               </p>
             </div>
           </div>

@@ -13,7 +13,7 @@ export const About = () => {
          One piece is a favorite and Beach House is one of my favorite music bands. */}
          I graduated from the University of Washington in 2023 taking Computer Science courses in Full Stack Web Development, Data Structures and Algorithms, and Java!
         </p>
-        <p className="about-description">I am a Kodely Tech Program Leader, tutoring elemntary students
+        <p className="about-description">I am also a Kodely Tech Program Leader, tutoring elemntary students
         in technology (electrical circuits specifically) and am a co-founder of a nonprofit, Rainier Tech Roots, where my team
         teaches programming to local youth for free.
         </p>

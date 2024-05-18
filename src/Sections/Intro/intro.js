@@ -22,8 +22,8 @@ const Intro = () => {
         <p className="intro-text">I'm <span id="introName">Anthony</span></p>
         <span className="intro-text" id="web-dev">Full Stack Developer</span>
         <p className="intro-paragraph">
-          Highly motivated Software Engineer Intern @ Sinclair Broadcast Group with
-          projects in AWS, Node/Javascript, embedded systems, and ATSC 3.0. I have experience with
+          Highly motivated Software Engineer @ Sinclair Digital with
+          experience in scaled front-end apps, AWS infrastructure, and Terraform CI/CD. I have experience with
           Agile & Scrum, Jira, code documentation, and unit testing!
         </p>
           {/* Tools: React, Spring Boot, AWS (EC2, S3, RDS), Java, MySQL, Bootstrap, Node, Express, Axios, CRUD </p> */}
