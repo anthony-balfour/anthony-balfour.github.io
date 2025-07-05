@@ -17,7 +17,7 @@ const Skills = () => {
       <section id="skills">
         <h2 className="skills-title">Skills</h2>
         <p className="skills-description">
-          React, TypeScript, Node, Java, MySQL, Spring Boot, AWS Infrastructure, Docker, Scrum
+          React, TypeScript, Node, Java, MySQL, AWS Solutions Architect, DynamoDB, REST, Scrum
         </p>
 
         <section className="skills-cards">
@@ -26,8 +26,7 @@ const Skills = () => {
             <img id="aws" className="skills-card-image" src={aws} alt="aws logo"></img>
             <div className="skills-card-text">
               <h3>AWS</h3>
-              <p> Implemented AWS CloudFront and S3 architecture for multiple TV apps. I have multiple
-                personal projects using EC2, RDS, and S3, ACM, and CloudFront.
+              <p> I have work project experience with Lambda, EC2, S3, CloudFront, EventBridge, DynamoDB, & more
                 {/* These projects are linked in the <Link className="projects-link" to="projects" spy={true} smooth = {true} duration = {500}> projects</Link> section. */}
               </p>
             </div>
@@ -40,9 +39,8 @@ const Skills = () => {
             <div className="skills-card-text">
               <h3>Front-End Development</h3>
               <p>
-                I had experience with a Typescript/React interactive TV app and developed
-                a scaled front end interactive TV app within a 3rd party framework for ATSC 3.0. I have multiple full stack projects including a
-                flight reservation App which implements designed RESTful API's in Node interfaced with JavaScript front end and a MySQL database.
+                I've led multiple full stack live TV web app projects deployed to over 150+ TV stations
+                developed in React, TypeScript, Node, and AWS driving savings of over $900K+
               </p>
             </div>
           </div>
@@ -50,9 +48,8 @@ const Skills = () => {
           <div className="skills-card">
           <img className="skills-card-image" src= {fullStack} alt="full stack icon" />
             <div className="skills-card-text">
-              <h3>CI/CD with Terraform </h3>
-              <p> I set up AWS resources in Terraform @ Sinclair using Terraform. I developed an app
-                using Gitlab pipelines and contributed heavily to the INT/QA development of that app.
+              <h3>CI/CD with GitLab and Terraform </h3>
+              <p> I highly optimized GitLab CI/CD pipelines using bash scripts, Terraform, and AWS commands
               </p>
             </div>
           </div>
