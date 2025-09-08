@@ -21,10 +21,12 @@ The self-portrait is positioned in the second half of the page
 .intro-layout {
   height: calc(100vh - 5rem);
   width: 100vw;
+  max-width: 80rem;
   display: flex;
   align-items: center;
   position: relative;
   z-index: 2;
+  margin: 0 auto;
 }
 
 #intro-content {
@@ -35,7 +37,8 @@ The self-portrait is positioned in the second half of the page
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
+  min-width: 0;
 }
 
 .profile-section {
@@ -43,9 +46,10 @@ The self-portrait is positioned in the second half of the page
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   height: calc(100vh - 5rem);
-  overflow: hidden;
+  width: 50%;
+  min-width: 0;
 }
 
 .profile-image-container {
@@ -55,14 +59,13 @@ The self-portrait is positioned in the second half of the page
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .profile-headshot {
   width: 100%;
-  max-width: 100%;
-  height: 100%;
-  max-height: calc(100vh - 9rem);
-  object-fit: contain;
+  height: 75vh;
+  object-fit: cover;
   object-position: center;
   border: none;
   box-shadow: none;
