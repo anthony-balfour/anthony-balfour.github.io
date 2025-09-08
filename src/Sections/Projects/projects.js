@@ -17,12 +17,12 @@ const Projects = () => {
         <div className="project-container">
           <h4>Rainier Tech Roots Website  </h4>
           <h4 className="project-img-title">2024 </h4>
-          <a href="https://www.rainiertechroots.org">
+          <a href="https://d21ekyhpilwd3m.cloudfront.net/">
             <img className="project-img" src={rtr} alt="Rainier Tech Roots Website Landing Page" />
           </a>
           <p className="tools">React, AWS CloudFront & S3 </p>
           <aisde className="img-links">
-            <a href="https://www.rainiertechroots.org"><p>Site</p></a>
+            <a href="https://d21ekyhpilwd3m.cloudfront.net/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/RainierTechRootsSite"><p>Source</p></a>
           </aisde>
         </div>
