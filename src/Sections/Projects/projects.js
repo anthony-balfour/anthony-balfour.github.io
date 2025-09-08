@@ -15,12 +15,12 @@ const Projects = () => {
       <div className="projects-container">
 
         <div className="project-container">
-          <h4>Rainier Tech Roots Website </h4>
-          <h4 className="project-img-title">(AWS CloudFront/S3) </h4>
+          <h4>Rainier Tech Roots Website  </h4>
+          <h4 className="project-img-title">2024 </h4>
           <a href="https://www.rainiertechroots.org">
             <img className="project-img" src={rtr} alt="Rainier Tech Roots Website Landing Page" />
           </a>
-          <p className="tools"></p>
+          <p className="tools">React, AWS CloudFront & S3 </p>
           <aisde className="img-links">
             <a href="https://www.rainiertechroots.org"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/RainierTechRootsSite"><p>Source</p></a>
@@ -28,8 +28,8 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
-          <h4>Spotify API React Music Player</h4>
-          <h4 className="project-img-title">(Docker/AWS EC2)</h4>
+          <h4>Spotify API React Music Player </h4>
+          <h4 className="project-img-title">2024</h4>
           <a href="https://d2h541ino9vlhb.cloudfront.net/">
             <img className="project-img" src={musicplayer} alt="CRUD Application Screenshot" />
           </a>
@@ -46,12 +46,12 @@ const Projects = () => {
       <div className="projects-container" >
 
         <div className="project-container">
-          <h4>Full Stack Expedia App</h4>
-          <h4 className="project-img-title">(AWS S3/Glitch hosting)</h4>
+          <h4>Full Stack Expedia App - School Project</h4>
+          <h4 className="project-img-title">2023</h4>
           <a href="https://d331b40h9acmbs.cloudfront.net/">
             <img className="project-img" src={expedia} alt="Expedia Webpage Screenshot" />
           </a>
-          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Docker, AWS Console</p>
+          <p className="tools"> Tools: JS, Node, Express, SQL, API, JSON, Docker, AWS S3 and CloudFront</p>
           <aisde className="img-links">
             <a href="https://d331b40h9acmbs.cloudfront.net/"><p>Site</p></a>
             <a href="https://github.com/anthony-balfour/outbound_flight_reservation"><p>Source</p></a>
@@ -59,20 +59,20 @@ const Projects = () => {
         </div>
 
         <div className="project-container">
-          <h4>Seahawks Landing Page (static)</h4>
-          <h4 className="project-img-title">(S3 Bucket) </h4>
+          <h4>Seahawks Landing Page - School Project</h4>
+          <h4 className="project-img-title"> 2023 </h4>
           <a href="http://seahawks-landing-page.s3-website.us-east-2.amazonaws.com/" >
             <img className="project-img" src={seahawks} alt="Seahawks Landing Page Screenshot" />
           </a>
 
-          <p className="tools"> Tools: JavaScript, HTML5, CSS3</p>
+          <p className="tools"> Tools: JavaScript, HTML5, CSS3, S3 bucket</p>
           <aisde className="img-links">
             <a href="http://seahawks-landing-page.s3-website.us-east-2.amazonaws.com/"><p>Site</p></a>
           </aisde>
         </div>
       </div>
       {/* <button className="projects-see-more">See More</button> */}
-      <div className="projects-container" >
+      {/* <div className="projects-container" >
 
         <div className="project-container">
           <h4>Full Stack Student Management App</h4>
@@ -101,7 +101,7 @@ const Projects = () => {
           </aisde>
         </div>
 
-      </div>
+      </div> */}
     </section>
   )
 }

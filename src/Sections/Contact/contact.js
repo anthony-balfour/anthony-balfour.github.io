@@ -30,13 +30,13 @@ import emailjs from '@emailjs/browser';
     <div className="contact-container">
     <section id="contact">
       <h2 className="contact-title">Contact Me</h2>
-      <p className="contact-description">Send me a message, let's do something awesome together!</p>
+      <p className="contact-description">Feel free to send a message!</p>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <input type="text" className="contact-name" placeholder="Your Name" name="your_name" />
         <input type="email" className="contact-email" placeholder='Your Email' name="your_email" />
         <textarea name="message" className="contact-message" rows="5" placeholder='Your Message'></textarea>
         <button className="contact-submit" type="submit" value='Send'>Submit</button>
-        <p className="email-response hidden">Thanks for the e-mail! I'll get back to you asap!</p>
+        <p className="email-response hidden">Thanks for the e-mail! Talk to you soon</p>
         <div className="contact-links">
           <a href="https://github.com/anthony-balfour"><img className="contact-icon" src={github} alt="github icon" /></a>
           <a href="https://www.linkedin.com/in/anthonybalfourjr/"><img className="contact-icon" src={linkedin} alt ="linekdin icon" /></a>

@@ -18,16 +18,66 @@ The self-portrait is positioned in the second half of the page
   position: relative;
 }
 
-#intro-content {
+.intro-layout {
   height: calc(100vh - 5rem);
   width: 100vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+#intro-content {
+  flex: 1;
   padding: 2rem;
   font-size: 3.4rem;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  outline: 10px solid teal;
+  max-width: 50%;
+}
+
+.profile-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: calc(100vh - 5rem);
+  overflow: hidden;
+}
+
+.profile-image-container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-headshot {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: calc(100vh - 9rem);
+  object-fit: contain;
+  object-position: center;
+  border: none;
+  box-shadow: none;
+}
+
+.background-portrait {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  display: none;
 }
 
 #hello {
@@ -53,6 +103,54 @@ The self-portrait is positioned in the second half of the page
   max-width: 465px;
 }
 
+/* Mobile and tablet responsive design */
+@media screen and (max-width: 768px) {
+  .intro-layout {
+    flex-direction: column;
+  }
+  
+  #intro-content {
+    max-width: 100%;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .profile-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding: 0;
+  }
+  
+  .profile-image-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .profile-headshot {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+  
+  .background-portrait {
+    display: none;
+  }
+  
+  .intro-paragraph {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 8px;
+    color: #333;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .intro-text {
     font-size: 3.32rem;
@@ -63,10 +161,25 @@ The self-portrait is positioned in the second half of the page
   }
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .profile-headshot {
+    height: 55vh;
+    min-height: 55vh;
+  }
+  
+  #intro-content {
+    max-width: 55%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .intro-paragraph {
-    max-width: 60vw;
+    max-width: 90vw;
     font-size: 0.9rem;
+  }
+  
+  .profile-headshot {
+    opacity: 0.3;
   }
 }
 
